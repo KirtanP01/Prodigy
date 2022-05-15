@@ -1,0 +1,4 @@
+repository "Prodigy Game V2@GameJama@cloud"
+  path "/"
+    br "/main"
+    co "/main"

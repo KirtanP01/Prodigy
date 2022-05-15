@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class NextScene : MonoBehaviour
+{
+
+    //public static NextScene Instance;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void UpdateScene(string sceneName, int orientation)
+    {
+        SceneManager.LoadScene(sceneName);
+
+        PlayerPrefs.SetInt("Orientation", orientation);
+        PlayerPrefs.SetString("CurrentScene", sceneName);
+    }
+
+    
+}

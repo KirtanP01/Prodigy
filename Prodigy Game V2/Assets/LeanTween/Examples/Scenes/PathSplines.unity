@@ -1,0 +1,3071 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_AtlasSize: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 512
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 0
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 978926038e5df104a9bdfa98a9486fec, type: 2}
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &248953102
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_Name
+      value: Avatar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.3323097
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.3469353
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+--- !u!1001 &351739505
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.26237297
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.21474457
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.19843578
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .0433035493
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .00599936303
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.999043941
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: .00042852413
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33b82a22301d648c5afa1a682a259e5d, type: 2}
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+--- !u!1001 &389610528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 351.737762
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.105957
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 135.241714
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .471835643
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.58214348e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .881686568
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.44746309e-07
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+--- !u!1 &467586323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 467586324}
+  - component: {fileID: 467586326}
+  - component: {fileID: 467586325}
+  m_Layer: 0
+  m_Name: Cube3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &467586324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467586323}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 9.652708, y: 0.1, z: 14.143398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &467586325
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467586323}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &467586326
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467586323}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &809256701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809256702}
+  - component: {fileID: 809256704}
+  - component: {fileID: 809256703}
+  m_Layer: 0
+  m_Name: Cube5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &809256702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809256701}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 14.340205, y: 0.1, z: -4.4183617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &809256703
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809256701}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &809256704
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809256701}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &845694183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845694184}
+  - component: {fileID: 845694185}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845694184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845694183}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &845694185
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845694183}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.9440559, b: 0, a: 1}
+  m_Intensity: 0.14
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1127654931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127654932}
+  - component: {fileID: 1127654934}
+  - component: {fileID: 1127654933}
+  m_Layer: 0
+  m_Name: Cube4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1127654932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127654931}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: -1.3137941, y: 0.1, z: 6.69689}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1127654933
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127654931}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1127654934
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127654931}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1430064998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1430064999}
+  - component: {fileID: 1430065000}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1430064999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430064998}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1430065000
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430064998}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.49357226, g: 0.0066273054, b: 0.8880597, a: 1}
+  m_Intensity: 0.36
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1487996144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487996145}
+  - component: {fileID: 1487996146}
+  m_Layer: 0
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487996145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487996144}
+  m_LocalRotation: {x: 0.4626682, y: -0.20249814, z: 0.12967989, w: 0.853297}
+  m_LocalPosition: {x: 6.221632, y: 14.453119, z: 0.8811226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1487996146
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487996144}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3.26
+  m_Range: 49.01
+  m_SpotAngle: 58
+  m_InnerSpotAngle: 43.445633
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1589894912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589894913}
+  - component: {fileID: 1589894914}
+  m_Layer: 0
+  m_Name: Radial light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589894913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589894912}
+  m_LocalRotation: {x: 0, y: -0.047886617, z: 0, w: 0.9988528}
+  m_LocalPosition: {x: 3.3683033, y: 4.906624, z: -2.59206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1681816812}
+  - {fileID: 845694184}
+  - {fileID: 1430064999}
+  - {fileID: 1991876557}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1589894914
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589894912}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.08
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1681816811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1681816812}
+  - component: {fileID: 1681816813}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1681816812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681816811}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1681816813
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681816811}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.49357226, g: 0.0066273054, b: 0.8880597, a: 1}
+  m_Intensity: 0.36
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1713412972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1713412973}
+  - component: {fileID: 1713412974}
+  - component: {fileID: 1713412977}
+  - component: {fileID: 1713412975}
+  - component: {fileID: 1713412978}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1713412973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_LocalRotation: {x: 0.100172326, y: 0.019062825, z: 0.01156799, w: 0.9947202}
+  m_LocalPosition: {x: 3.684391, y: 6.0154877, z: -1.1601028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1713412974
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.0033415034, g: 0.03686789, b: 0.08955222, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 2000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1713412975
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+--- !u!124 &1713412977
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+--- !u!114 &1713412978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0396ae3eef541c190f0e6962090454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trans:
+  - {fileID: 2079683211}
+  - {fileID: 1719844711}
+  - {fileID: 467586324}
+  - {fileID: 1127654932}
+  - {fileID: 809256702}
+--- !u!1 &1719844710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719844711}
+  - component: {fileID: 1719844713}
+  - component: {fileID: 1719844712}
+  m_Layer: 0
+  m_Name: Cube2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719844711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719844710}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 14.166129, y: 0.1, z: 35.97919}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1719844712
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719844710}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1719844713
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719844710}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1771862283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771862284}
+  - component: {fileID: 1771862286}
+  - component: {fileID: 1771862287}
+  - component: {fileID: 1771862285}
+  m_Layer: 0
+  m_Name: HardGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1771862284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_LocalRotation: {x: 0, y: -0.047886617, z: 0, w: 0.9988528}
+  m_LocalPosition: {x: 2.688548, y: 0, z: 9.202139}
+  m_LocalScale: {x: 671.6883, y: 0.1, z: 780.0193}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1771862285
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c6784005974824c55b2b59b5bda24153, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1771862286
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1771862287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_Material: {fileID: 13400000, guid: 1560575207a7b4f27bcd4ab2aeb2e3a1, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1991876556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991876557}
+  - component: {fileID: 1991876558}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991876557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991876556}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1991876558
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991876556}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.68218344, g: 1, b: 0.35074627, a: 1}
+  m_Intensity: 0.28
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &2079683210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079683211}
+  - component: {fileID: 2079683213}
+  - component: {fileID: 2079683212}
+  m_Layer: 0
+  m_Name: Cube1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079683211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079683210}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 43.259285, y: 0.1, z: 31.743164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2079683212
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079683210}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2079683213
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079683210}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+ É ∑\   	 †    3.5.7f6 ˛ˇˇˇ   ˇˇˇˇMonoBehaviour Base ˇˇˇˇ            Ä  	   UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      UInt8 m_Enabled              A      UInt32 m_EditorHideFlags                     PPtr<MonoScript> m_Script     
+                SInt32 m_FileID                     SInt32 m_PathID                     string m_Name ˇˇˇˇ          Ä     Array Array ˇˇˇˇ         @     SInt32 size                     char data                     vector trans ˇˇˇˇ                Array Array ˇˇˇˇ               SInt32 size                     PPtr<$Transform> data                    SInt32 m_FileID                    SInt32 m_PathID                       GameObject Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    vector m_Component ˇˇˇˇ          A     Array Array ˇˇˇˇ	         A     SInt32 size    
+          A      pair data              A     SInt32 first              A      PPtr<Component> second              A     SInt32 m_FileID              A      SInt32 m_PathID              A      UInt32 m_Layer                      string m_Name ˇˇˇˇ           Ä     Array Array ˇˇˇˇ         @     SInt32 size                     char data                     string m_TagString ˇˇˇˇ           Ä     Array Array ˇˇˇˇ         @     SInt32 size                     char data                     PPtr<Texture2D> m_Icon                     SInt32 m_FileID                     SInt32 m_PathID                     UInt32 m_NavMeshLayer                     UInt32 m_StaticEditorFlags                @     UInt8 m_IsActive                        Transform Base ˇˇˇˇ               	   UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      Quaternionf m_LocalRotation                    float x                     float y                     float z                     float w                     Vector3f m_LocalPosition                    float x                     float y                     float z                     Vector3f m_LocalScale                    float x                     float y                     float z                     vector m_Children ˇˇˇˇ          A     Array Array ˇˇˇˇ         A     SInt32 size              A      PPtr<Transform> data              A     SInt32 m_FileID              A      SInt32 m_PathID              A      PPtr<Transform> m_Father                   SInt32 m_FileID                    SInt32 m_PathID                        Camera Base g               Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      UInt8 m_Enabled              A      unsigned int m_ClearFlags                     ColorRGBA m_BackGroundColor                    float r                    float g                    float b                    float a                    Rectf m_NormalizedViewPortRect                     float x                      float y                      float width                      float height                      float near clip plane                      float far clip plane                      float field of view                     bool orthographic               @      float orthographic size                      float m_Depth                      BitField m_CullingMask                     UInt32 m_Bits               @     int m_RenderingPath                      PPtr<RenderTexture> m_TargetTexture                      SInt32 m_FileID    !                 SInt32 m_PathID    "                 bool m_HDR    #                     Renderer Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      bool m_Enabled                     bool m_CastShadows                      bool m_ReceiveShadows                      UInt8 m_LightmapIndex                     Vector4f m_LightmapTilingOffset                    float x                     float y                     float z                     float w                     vector m_Materials ˇˇˇˇ                 Array Array ˇˇˇˇ                SInt32 size                      PPtr<Material> data                     SInt32 m_FileID                     SInt32 m_PathID                     vector m_SubsetIndices ˇˇˇˇ                Array Array ˇˇˇˇ               SInt32 size                     UInt32 data                     PPtr<Transform> m_StaticBatchRoot                    SInt32 m_FileID                     SInt32 m_PathID                      bool m_UseLightProbes    !           @      PPtr<Transform> m_LightProbeAnchor    "                 SInt32 m_FileID    #                 SInt32 m_PathID    $                 float m_ScaleInLightmap    %                    Scene Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     vector m_PVSData ˇˇˇˇ           Ä     Array Array ˇˇˇˇ          @     SInt32 size                      UInt8 data                      UInt32 m_QueryMode                      vector m_PVSObjectsArray ˇˇˇˇ                 Array Array ˇˇˇˇ                SInt32 size    	                  PPtr<Renderer> data    
+                 SInt32 m_FileID                     SInt32 m_PathID                     vector m_PVSPortalsArray ˇˇˇˇ 
+                Array Array ˇˇˇˇ                SInt32 size                      PPtr<OcclusionPortal> data                     SInt32 m_FileID                     SInt32 m_PathID                     OcclusionBakeSettings m_OcclusionBakeSettings                     float viewCellSize                      UInt32 bakeMode                      UInt32 memoryUsage                      !   MeshFilter Base $                     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      PPtr<Mesh> m_Mesh                    SInt32 m_FileID                    SInt32 m_PathID                    A   BoxCollider Base >               Ä  	   UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      PPtr<PhysicMaterial> m_Material                    SInt32 m_FileID                    SInt32 m_PathID                    bool m_IsTrigger                     bool m_Enabled              A      Vector3f m_Size                    float x                     float y                     float z                     Vector3f m_Center                     float x                      float y                      float z                      Q   AudioListener Base                Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      UInt8 m_Enabled              A      \   Behaviour Base                Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+ 
+         A      UInt8 m_Enabled              A      `   TrailRenderer Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      bool m_Enabled                     bool m_CastShadows                      bool m_ReceiveShadows                      UInt8 m_LightmapIndex                     Vector4f m_LightmapTilingOffset                    float x                     float y                     float z                     float w                     vector m_Materials ˇˇˇˇ                 Array Array ˇˇˇˇ                SInt32 size                      PPtr<Material> data                     SInt32 m_FileID                     SInt32 m_PathID                     vector m_SubsetIndices ˇˇˇˇ                Array Array ˇˇˇˇ               SInt32 size                     UInt32 data                     PPtr<Transform> m_StaticBatchRoot                    SInt32 m_FileID                     SInt32 m_PathID                      bool m_UseLightProbes    !           @      PPtr<Transform> m_LightProbeAnchor    "                 SInt32 m_FileID    #                 SInt32 m_PathID    $                 float m_ScaleInLightmap    %                 float m_Time    &                 float m_StartWidth    '                 float m_EndWidth    (                 Gradient m_Colors    )                ColorRGBA m_Color[0]    *                UInt32 rgba    +                ColorRGBA m_Color[1]    ,                UInt32 rgba    -                ColorRGBA m_Color[2]    .                UInt32 rgba    /                ColorRGBA m_Color[3]    0                UInt32 rgba    1                ColorRGBA m_Color[4]    2                UInt32 rgba    3                float m_MinVertexDistance    4                  bool m_Autodestruct    5                  h   RenderSettings Base U               Ä     bool m_Fog               H      ColorRGBA m_FogColor                    float r                    float g                    float b                    float a                    int m_FogMode                     float m_FogDensity                     float m_LinearFogStart    	                 float m_LinearFogEnd    
+                 ColorRGBA m_AmbientLight                    float r                    float g     
+               float b                    float a                    PPtr<Material> m_SkyboxMaterial                    SInt32 m_FileID                    SInt32 m_PathID                    float m_HaloStrength                      float m_FlareStrength                      PPtr<Texture2D> m_HaloTexture                     SInt32 m_FileID                     SInt32 m_PathID                     PPtr<Texture2D> m_SpotCookie                     SInt32 m_FileID                     SInt32 m_PathID                     UInt32 m_ObjectHideFlags                     l   Light Base è               Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      UInt8 m_Enabled              A      int m_Type                     ColorRGBA m_Color                    float r                    float g                    float b                    float a                    float m_Intensity                      float m_Range                     float m_SpotAngle                     float m_CookieSize                      ShadowSettings m_Shadows                     int m_Type                     int m_Resolution                      float m_Strength                      float m_Bias                      float m_Softness                      float m_SoftnessFade                      PPtr<Texture> m_Cookie                     SInt32 m_FileID                     SInt32 m_PathID                     bool m_DrawHalo                      bool m_ActuallyLightmapped    !           @      PPtr<Flare> m_Flare    "                 SInt32 m_FileID    #                 SInt32 m_PathID    $                 int m_RenderMode    %                  BitField m_CullingMask    &                 UInt32 m_Bits    '           @     int m_Lightmapping    (                  int m_ShadowSamples    )                  float m_ShadowRadius    *                  float m_ShadowAngle    +                  float m_IndirectIntensity    ,                  Vector2f m_AreaSize    -                 float x    .                  float y    /                  |   Behaviour Base                Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      UInt8 m_Enabled              A         GameManager Base                      UInt32 m_ObjectHideFlags                     ù   LightmapSettings Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PPtr<LightProbes> m_LightProbes                     SInt32 m_FileID                     SInt32 m_PathID                     vector m_Lightmaps ˇˇˇˇ                 Array Array ˇˇˇˇ                SInt32 size                      LightmapData data                     PPtr<Texture2D> m_Lightmap    	                 SInt32 m_FileID    
+                 SInt32 m_PathID                     PPtr<Texture2D> m_IndirectLightmap                     SInt32 m_FileID     
+                SInt32 m_PathID                     int m_LightmapsMode                      int m_BakedColorSpace                      bool m_UseDualLightmapsInForward               @      LightmapEditorSettings m_LightmapEditorSettings Z                    float m_Resolution                      float m_LastUsedResolution                      int m_TextureWidth                      int m_TextureHeight                      float m_BounceBoost                      float m_BounceIntensity                      ColorRGBA m_SkyLightColor                     float r                     float g                     float b                     float a                     float m_SkyLightIntensity                      int m_Quality                      int m_Bounces                       int m_FinalGatherRays    !                  float m_FinalGatherContrastThreshold    "                  float m_FinalGatherGradientThreshold    #                  int m_FinalGatherInterpolationPoints    $                  float m_AOAmount    %                  float m_AOMaxDistance    &                  float m_AOContrast    '                  float m_LODSurfaceMappingDistance    (                  int m_Padding    )                  bool m_TextureCompression    *                  bool m_LockAtlas    +                  ƒ   NavMeshSettings Base 1               Ä     UInt32 m_ObjectHideFlags                     NavMeshBuildSettings m_BuildSettings %              Ä  
+   float agentRadius                      float agentHeight                      float agentSlope                      float agentClimb                      float ledgeDropHeight                      float maxJumpAcrossDistance                      bool accuratePlacement    	           @      float minRegionArea    
+ 
+                 float widthInaccuracy                      float heightInaccuracy                      PPtr<NavMesh> m_NavMesh                     SInt32 m_FileID                     SInt32 m_PathID                     ∆   ParticleSystem Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      float lengthInSec                      float startDelay                      float speed     
+                 UInt32 randomSeed                      bool looping                      bool prewarm                      bool playOnAwake                      bool moveWithTransform                      InitialModule InitialModule ˇˇˇˇ           Ä  	   bool enabled               @      MinMaxCurve startLifetime ˇˇˇˇ           Ä     float scalar                      AnimationCurve maxCurve ˇˇˇˇ                 vector m_Curve ˇˇˇˇ                Array Array ˇˇˇˇ               SInt32 size                     Keyframe data                    float time                     float value                     float inSlope                     float outSlope                     int tangentMode                      int m_PreInfinity    !                 int m_PostInfinity    "                 AnimationCurve minCurve ˇˇˇˇ#                 vector m_Curve ˇˇˇˇ$                Array Array ˇˇˇˇ%               SInt32 size    &                 Keyframe data    '                float time    (                 float value    )                 float inSlope    *                 float outSlope    +                 int tangentMode    ,                 int m_PreInfinity    -                 int m_PostInfinity    .                 SInt16 minMaxState    /           @      MinMaxCurve startSpeed ˇˇˇˇ0           Ä     float scalar    1                  AnimationCurve maxCurve ˇˇˇˇ2                 vector m_Curve ˇˇˇˇ3                Array Array ˇˇˇˇ4               SInt32 size    5                 Keyframe data    6                float time    7                 float value    8                 float inSlope    9                 float outSlope    :                 int tangentMode    ;                 int m_PreInfinity    <                 int m_PostInfinity    =                 AnimationCurve minCurve ˇˇˇˇ>                 vector m_Curve ˇˇˇˇ?                Array Array ˇˇˇˇ@               SInt32 size    A                 Keyframe data    B                float time    C                 float value    D                 float inSlope    E                 float outSlope    F                 int tangentMode    G                 int m_PreInfinity    H                 int m_PostInfinity    I                 SInt16 minMaxState    J           @      MinMaxGradient startColor é   K           Ä     GradientNEW maxGradient B   L           Ä     ColorRGBA key0    M                 UInt32 rgba    N                 ColorRGBA key1    O                 UInt32 rgba    P                 ColorRGBA key2    Q                 UInt32 rgba    R                 ColorRGBA key3    S                 UInt32 rgba    T                 ColorRGBA key4    U                 UInt32 rgba    V                 ColorRGBA key5    W                 UInt32 rgba    X                 ColorRGBA key6    Y                 UInt32 rgba    Z                 ColorRGBA key7    [                 UInt32 rgba    \                 UInt16 ctime0    ]                  UInt16 ctime1    ^                  UInt16 ctime2    _                  UInt16 ctime3    `                  UInt16 ctime4    a                  UInt16 ctime5    b                  UInt16 ctime6    c                  UInt16 ctime7    d                  UInt16 atime0    e                  UInt16 atime1    f                  UInt16 atime2    g                  UInt16 atime3    h                  UInt16 atime4    i                  UInt16 atime5    j                  UInt16 atime6    k                  UInt16 atime7    l                  UInt8 m_NumColorKeys    m                  UInt8 m_NumAlphaKeys    n           @      GradientNEW minGradient B   o           Ä     ColorRGBA key0    p                 UInt32 rgba    q                 ColorRGBA key1    r                 UInt32 rgba    s                 ColorRGBA key2    t                 UInt32 rgba    u                 ColorRGBA key3    v                 UInt32 rgba    w                 ColorRGBA key4    x                 UInt32 rgba    y                 ColorRGBA key5    z                 UInt32 rgba    {                 ColorRGBA key6    |                 UInt32 rgba    }                 ColorRGBA key7    ~                 UInt32 rgba                     UInt16 ctime0    Ä                  UInt16 ctime1    Å                  UInt16 ctime2    Ç                  UInt16 ctime3    É                  UInt16 ctime4    Ñ                  UInt16 ctime5    Ö                  UInt16 ctime6    Ü                  UInt16 ctime7    á                  UInt16 atime0    à                  UInt16 atime1    â                  UInt16 atime2    ä                  UInt16 atime3    ã                  UInt16 atime4    å                  UInt16 atime5    ç                  UInt16 atime6    é                  UInt16 atime7    è                  UInt8 m_NumColorKeys    ê                  UInt8 m_NumAlphaKeys    ë           @      ColorRGBA minColor    í                 UInt32 rgba    ì                 ColorRGBA maxColor    î                 UInt32 rgba    ï                 SInt16 minMaxState    ñ           @      MinMaxCurve startSize ˇˇˇˇó           Ä     float scalar    ò                  AnimationCurve maxCurve ˇˇˇˇô                 vector m_Curve ˇˇˇˇö                Array Array ˇˇˇˇõ               SInt32 size    ú                 Keyframe data    ù                float time    û                 float value    ü                 float inSlope    †                 float outSlope    °                 int tangentMode    ¢                 int m_PreInfinity    £                 int m_PostInfinity    §                 AnimationCurve minCurve ˇˇˇˇ•                 vector m_Curve ˇˇˇˇ¶                Array Array ˇˇˇˇß               SInt32 size    ®                 Keyframe data    ©                float time    ™                 float value    ´                 float inSlope    ¨                 float outSlope    ≠                 int tangentMode    Æ                 int m_PreInfinity    Ø                 int m_PostInfinity    ∞                 SInt16 minMaxState    ±           @      MinMaxCurve startRotation ˇˇˇˇ≤           Ä     float scalar    ≥                  AnimationCurve maxCurve ˇˇˇˇ¥                 vector m_Curve ˇˇˇˇµ                Array Array ˇˇˇˇ∂               SInt32 size    ∑                 Keyframe data    ∏                float time    π                 float value    ∫                 float inSlope    ª                 float outSlope    º                 int tangentMode    Ω                 int m_PreInfinity    æ                 int m_PostInfinity    ø                 AnimationCurve minCurve ˇˇˇˇ¿                 vector m_Curve ˇˇˇˇ¡                Array Array ˇˇˇˇ¬               SInt32 size    √                 Keyframe data    ƒ                float time    ≈                 float value    ∆                 float inSlope    «                 float outSlope    »                 int tangentMode    …                 int m_PreInfinity                      int m_PostInfinity    À                 SInt16 minMaxState    Ã           @      float gravityModifier    Õ                  float inheritVelocity    Œ                  int maxNumParticles    œ                  ShapeModule ShapeModule &   –           Ä  
+   bool enabled    —           @      int type    “                  float radius    ”                  float angle    ‘                  float boxX    ’                  float boxY    ÷                  float boxZ    ◊                  int placementMode    ÿ                  PPtr<Mesh> m_Mesh    Ÿ                 SInt32 m_FileID    ⁄                 SInt32 m_PathID    €                 bool randomDirection    ‹           @      EmissionModule EmissionModule ˇˇˇˇ›           Ä     bool enabled    ﬁ           @      int m_Type    ﬂ                  MinMaxCurve rate ˇˇˇˇ‡           Ä     float scalar    ·                  AnimationCurve maxCurve ˇˇˇˇ‚                 vector m_Curve ˇˇˇˇ„                Array Array ˇˇˇˇ‰               SInt32 size    Â                 Keyframe data    Ê                float time    Á                 float value    Ë                 float inSlope    È                 float outSlope    Í                 int tangentMode    Î                 int m_PreInfinity    Ï                 int m_PostInfinity    Ì                 AnimationCurve minCurve ˇˇˇˇÓ                 vector m_Curve ˇˇˇˇÔ                Array Array ˇˇˇˇ               SInt32 size    Ò                 Keyframe data    Ú                float time    Û                 float value    Ù                 float inSlope    ı                 float outSlope    ˆ                 int tangentMode    ˜                 int m_PreInfinity    ¯                 int m_PostInfinity    ˘                 SInt16 minMaxState    ˙           @      UInt16 cnt0    ˚                  UInt16 cnt1    ¸                  UInt16 cnt2    ˝                  UInt16 cnt3    ˛                  float time0    ˇ                  float time1                      float time2                     float time3                     UInt8 m_BurstCount              @      SizeModule SizeModule ˇˇˇˇ          Ä     bool enabled              @      MinMaxCurve curve ˇˇˇˇ          Ä     float scalar                     AnimationCurve maxCurve ˇˇˇˇ                vector m_Curve ˇˇˇˇ	               Array Array ˇˇˇˇ
+              SInt32 size                    Keyframe data                   float time                    float value                    float inSlope                    float outSlope                    int tangentMode                    int m_PreInfinity                    int m_PostInfinity                    AnimationCurve minCurve ˇˇˇˇ                vector m_Curve ˇˇˇˇ               Array Array ˇˇˇˇ              SInt32 size                    Keyframe data                   float time                    float value                    float inSlope                    float outSlope                    int tangentMode                    int m_PreInfinity                    int m_PostInfinity                    SInt16 minMaxState               @      RotationModule RotationModule ˇˇˇˇ!          Ä     bool enabled    "          @      MinMaxCurve curve ˇˇˇˇ#          Ä     float scalar    $                 AnimationCurve maxCurve ˇˇˇˇ%                vector m_Curve ˇˇˇˇ&               Array Array ˇˇˇˇ'              SInt32 size    (                Keyframe data    )               float time    *                float value    +                float inSlope    ,                float outSlope    -                int tangentMode    .                int m_PreInfinity    /                int m_PostInfinity    0                AnimationCurve minCurve ˇˇˇˇ1                vector m_Curve ˇˇˇˇ2               Array Array ˇˇˇˇ3              SInt32 size    4                Keyframe data    5               float time    6                float value    7                float inSlope    8                float outSlope    9                int tangentMode    :                int m_PreInfinity    ;                int m_PostInfinity    <                SInt16 minMaxState    =          @      ColorModule ColorModule è   >          Ä     bool enabled    ?          @      MinMaxGradient gradient é   @          Ä     GradientNEW maxGradient B   A          Ä     ColorRGBA key0    B                UInt32 rgba    C                ColorRGBA key1    D                UInt32 rgba    E                ColorRGBA key2    F                UInt32 rgba    G                ColorRGBA key3    H                UInt32 rgba    I                ColorRGBA key4    J                UInt32 rgba    K                ColorRGBA key5    L                UInt32 rgba    M                ColorRGBA key6    N                UInt32 rgba    O                ColorRGBA key7    P                UInt32 rgba    Q                UInt16 ctime0    R                 UInt16 ctime1    S                 UInt16 ctime2    T                 UInt16 ctime3    U                 UInt16 ctime4    V                 UInt16 ctime5    W                 UInt16 ctime6    X                 UInt16 ctime7    Y                 UInt16 atime0    Z                 UInt16 atime1    [                 UInt16 atime2    \                 UInt16 atime3    ]                 UInt16 atime4    ^                 UInt16 atime5    _                 UInt16 atime6    `                 UInt16 atime7    a                 UInt8 m_NumColorKeys    b                 UInt8 m_NumAlphaKeys    c          @      GradientNEW minGradient B   d          Ä     ColorRGBA key0    e                UInt32 rgba    f                ColorRGBA key1    g                UInt32 rgba    h                ColorRGBA key2    i                UInt32 rgba    j                ColorRGBA key3    k                UInt32 rgba    l                ColorRGBA key4    m                UInt32 rgba    n                ColorRGBA key5    o                UInt32 rgba    p                ColorRGBA key6    q                UInt32 rgba    r                ColorRGBA key7    s                UInt32 rgba    t                UInt16 ctime0    u                 UInt16 ctime1    v                 UInt16 ctime2    w                 UInt16 ctime3    x                 UInt16 ctime4    y                 UInt16 ctime5    z                 UInt16 ctime6    {                 UInt16 ctime7    |                 UInt16 atime0    }                 UInt16 atime1    ~                 UInt16 atime2                     UInt16 atime3    Ä                 UInt16 atime4    Å                 UInt16 atime5    Ç                 UInt16 atime6    É                 UInt16 atime7    Ñ                 UInt8 m_NumColorKeys    Ö                 UInt8 m_NumAlphaKeys    Ü          @      ColorRGBA minColor    á                UInt32 rgba    à                ColorRGBA maxColor    â                UInt32 rgba    ä                SInt16 minMaxState    ã          @      UVModule UVModule ˇˇˇˇå          Ä     bool enabled    ç          @      MinMaxCurve frameOverTime ˇˇˇˇé          Ä     float scalar    è                 AnimationCurve maxCurve ˇˇˇˇê                vector m_Curve ˇˇˇˇë               Array Array ˇˇˇˇí              SInt32 size    ì                Keyframe data    î               float time    ï                float value    ñ                float inSlope    ó                float outSlope    ò                int tangentMode    ô                int m_PreInfinity    ö                int m_PostInfinity    õ                AnimationCurve minCurve ˇˇˇˇú                vector m_Curve ˇˇˇˇù               Array Array ˇˇˇˇû              SInt32 size    ü                Keyframe data    †               float time    °                float value    ¢                float inSlope    £                float outSlope    §                int tangentMode    •                int m_PreInfinity    ¶                int m_PostInfinity    ß                SInt16 minMaxState    ®          @      int tilesX    ©                 int tilesY    ™                 int animationType    ´                 int rowIndex    ¨                 float cycles    ≠                 bool randomRow    Æ          @      VelocityModule VelocityModule ˇˇˇˇØ          Ä     bool enabled    ∞          @      MinMaxCurve x ˇˇˇˇ±          Ä     float scalar    ≤                 AnimationCurve maxCurve ˇˇˇˇ≥                vector m_Curve ˇˇˇˇ¥               Array Array ˇˇˇˇµ              SInt32 size    ∂                Keyframe data    ∑               float time    ∏                float value    π                float inSlope    ∫                float outSlope    ª                int tangentMode    º                int m_PreInfinity    Ω                int m_PostInfinity    æ                AnimationCurve minCurve ˇˇˇˇø                vector m_Curve ˇˇˇˇ¿               Array Array ˇˇˇˇ¡              SInt32 size    ¬                Keyframe data    √               float time    ƒ                float value    ≈                float inSlope    ∆                float outSlope    «                int tangentMode    »                int m_PreInfinity    …                int m_PostInfinity                     SInt16 minMaxState    À          @      MinMaxCurve y ˇˇˇˇÃ          Ä     float scalar    Õ                 AnimationCurve maxCurve ˇˇˇˇŒ                vector m_Curve ˇˇˇˇœ               Array Array ˇˇˇˇ–              SInt32 size    —                Keyframe data    “               float time    ”                float value    ‘                float inSlope    ’                float outSlope    ÷                int tangentMode    ◊                int m_PreInfinity    ÿ                int m_PostInfinity    Ÿ                AnimationCurve minCurve ˇˇˇˇ⁄                vector m_Curve ˇˇˇˇ€               Array Array ˇˇˇˇ‹              SInt32 size    ›                Keyframe data    ﬁ               float time    ﬂ                float value    ‡                float inSlope    ·                float outSlope    ‚                int tangentMode    „                int m_PreInfinity    ‰                int m_PostInfinity    Â                SInt16 minMaxState    Ê          @      MinMaxCurve z ˇˇˇˇÁ          Ä     float scalar    Ë                 AnimationCurve maxCurve ˇˇˇˇÈ                vector m_Curve ˇˇˇˇÍ               Array Array ˇˇˇˇÎ              SInt32 size    Ï                Keyframe data    Ì               float time    Ó                float value    Ô                float inSlope                    float outSlope    Ò                int tangentMode    Ú                int m_PreInfinity    Û                int m_PostInfinity    Ù                AnimationCurve minCurve ˇˇˇˇı                vector m_Curve ˇˇˇˇˆ               Array Array ˇˇˇˇ˜              SInt32 size    ¯                Keyframe data    ˘               float time    ˙                float value    ˚                float inSlope    ¸                float outSlope    ˝                int tangentMode    ˛                int m_PreInfinity    ˇ                int m_PostInfinity                     SInt16 minMaxState              @      bool inWorldSpace              @      ForceModule ForceModule ˇˇˇˇ          Ä     bool enabled              @      MinMaxCurve x ˇˇˇˇ          Ä     float scalar                     AnimationCurve maxCurve ˇˇˇˇ                vector m_Curve ˇˇˇˇ               Array Array ˇˇˇˇ	              SInt32 size    
+                Keyframe data                   float time                    float value                    float inSlope                    float outSlope                    int tangentMode                    int m_PreInfinity                    int m_PostInfinity                    AnimationCurve minCurve ˇˇˇˇ                vector m_Curve ˇˇˇˇ               Array Array ˇˇˇˇ              SInt32 size                    Keyframe data                   float time                    float value                    float inSlope                    float outSlope                    int tangentMode                    int m_PreInfinity                    int m_PostInfinity                    SInt16 minMaxState              @      MinMaxCurve y ˇˇˇˇ           Ä     float scalar    !                 AnimationCurve maxCurve ˇˇˇˇ"                vector m_Curve ˇˇˇˇ#               Array Array ˇˇˇˇ$              SInt32 size    %                Keyframe data    &               float time    '                float value    (                float inSlope    )                float outSlope    *                int tangentMode    +                int m_PreInfinity    ,                int m_PostInfinity    -                AnimationCurve minCurve ˇˇˇˇ.                vector m_Curve ˇˇˇˇ/               Array Array ˇˇˇˇ0              SInt32 size    1                Keyframe data    2               float time    3                float value    4                float inSlope    5                float outSlope    6                int tangentMode    7                int m_PreInfinity    8                int m_PostInfinity    9                SInt16 minMaxState    :          @      MinMaxCurve z ˇˇˇˇ;          Ä     float scalar    <                 AnimationCurve maxCurve ˇˇˇˇ=                vector m_Curve ˇˇˇˇ>               Array Array ˇˇˇˇ?              SInt32 size    @                Keyframe data    A               float time    B                float value    C                float inSlope    D                float outSlope    E                int tangentMode    F                int m_PreInfinity    G                int m_PostInfinity    H                AnimationCurve minCurve ˇˇˇˇI                vector m_Curve ˇˇˇˇJ               Array Array ˇˇˇˇK              SInt32 size    L                Keyframe data    M               float time    N                float value    O                float inSlope    P                float outSlope    Q                int tangentMode    R                int m_PreInfinity    S                int m_PostInfinity    T                SInt16 minMaxState    U          @      bool inWorldSpace    V                 bool randomizePerFrame    W          @      ClampVelocityModule ClampVelocityModule ˇˇˇˇX          Ä     bool enabled    Y          @      MinMaxCurve x ˇˇˇˇZ          Ä     float scalar    [                 AnimationCurve maxCurve ˇˇˇˇ\                vector m_Curve ˇˇˇˇ]               Array Array ˇˇˇˇ^              SInt32 size    _                Keyframe data    `               float time    a                float value    b                float inSlope    c                float outSlope    d                int tangentMode    e                int m_PreInfinity    f                int m_PostInfinity    g                AnimationCurve minCurve ˇˇˇˇh                vector m_Curve ˇˇˇˇi               Array Array ˇˇˇˇj              SInt32 size    k                Keyframe data    l               float time    m                float value    n                float inSlope    o                float outSlope    p                int tangentMode    q                int m_PreInfinity    r                int m_PostInfinity    s                SInt16 minMaxState    t          @      MinMaxCurve y ˇˇˇˇu          Ä     float scalar    v                 AnimationCurve maxCurve ˇˇˇˇw                vector m_Curve ˇˇˇˇx               Array Array ˇˇˇˇy              SInt32 size    z                Keyframe data    {               float time    |                float value    }                float inSlope    ~                float outSlope                    int tangentMode    Ä                int m_PreInfinity    Å                int m_PostInfinity    Ç                AnimationCurve minCurve ˇˇˇˇÉ                vector m_Curve ˇˇˇˇÑ               Array Array ˇˇˇˇÖ              SInt32 size    Ü                Keyframe data    á               float time    à                float value    â                float inSlope    ä                float outSlope    ã                int tangentMode    å                int m_PreInfinity    ç                int m_PostInfinity    é                SInt16 minMaxState    è          @      MinMaxCurve z ˇˇˇˇê          Ä     float scalar    ë                 AnimationCurve maxCurve ˇˇˇˇí                vector m_Curve ˇˇˇˇì               Array Array ˇˇˇˇî              SInt32 size    ï                Keyframe data    ñ               float time    ó                float value    ò                float inSlope    ô                float outSlope    ö                int tangentMode    õ                int m_PreInfinity    ú                int m_PostInfinity    ù                AnimationCurve minCurve ˇˇˇˇû                vector m_Curve ˇˇˇˇü               Array Array ˇˇˇˇ†              SInt32 size    °                Keyframe data    ¢               float time    £                float value    §                float inSlope    •                float outSlope    ¶                int tangentMode    ß                int m_PreInfinity    ®                int m_PostInfinity    ©                SInt16 minMaxState    ™          @      MinMaxCurve magnitude ˇˇˇˇ´          Ä     float scalar    ¨                 AnimationCurve maxCurve ˇˇˇˇ≠                vector m_Curve ˇˇˇˇÆ               Array Array ˇˇˇˇØ              SInt32 size    ∞                Keyframe data    ±               float time    ≤                float value    ≥                float inSlope    ¥                float outSlope    µ                int tangentMode    ∂                int m_PreInfinity    ∑                int m_PostInfinity    ∏                AnimationCurve minCurve ˇˇˇˇπ                vector m_Curve ˇˇˇˇ∫               Array Array ˇˇˇˇª              SInt32 size    º                Keyframe data    Ω               float time    æ                float value    ø                float inSlope    ¿                float outSlope    ¡                int tangentMode    ¬                int m_PreInfinity    √                int m_PostInfinity    ƒ                SInt16 minMaxState    ≈          @      bool separateAxis    ∆          @      float dampen    «                 SizeBySpeedModule SizeBySpeedModule ˇˇˇˇ»          Ä     bool enabled    …          @      MinMaxCurve curve ˇˇˇˇ           Ä     float scalar    À                 AnimationCurve maxCurve ˇˇˇˇÃ                vector m_Curve ˇˇˇˇÕ               Array Array ˇˇˇˇŒ              SInt32 size    œ                Keyframe data    –               float time    —                float value    “                float inSlope    ”                float outSlope    ‘                int tangentMode    ’                int m_PreInfinity    ÷                int m_PostInfinity    ◊                AnimationCurve minCurve ˇˇˇˇÿ                vector m_Curve ˇˇˇˇŸ               Array Array ˇˇˇˇ⁄              SInt32 size    €                Keyframe data    ‹               float time    ›                float value    ﬁ                float inSlope    ﬂ                float outSlope    ‡                int tangentMode    ·                int m_PreInfinity    ‚                int m_PostInfinity    „                SInt16 minMaxState    ‰          @      Vector2f range    Â                float x    Ê                 float y    Á                 RotationBySpeedModule RotationBySpeedModule ˇˇˇˇË          Ä     bool enabled    È          @      MinMaxCurve curve ˇˇˇˇÍ          Ä     float scalar    Î                 AnimationCurve maxCurve ˇˇˇˇÏ                vector m_Curve ˇˇˇˇÌ               Array Array ˇˇˇˇÓ              SInt32 size    Ô                Keyframe data                   float time    Ò                float value    Ú                float inSlope    Û                float outSlope    Ù                int tangentMode    ı                int m_PreInfinity    ˆ                int m_PostInfinity    ˜                AnimationCurve minCurve ˇˇˇˇ¯                vector m_Curve ˇˇˇˇ˘               Array Array ˇˇˇˇ˙              SInt32 size    ˚                Keyframe data    ¸               float time    ˝                float value    ˛                float inSlope    ˇ                float outSlope                     int tangentMode                    int m_PreInfinity                    int m_PostInfinity                    SInt16 minMaxState              @      Vector2f range                    float x                     float y                     ColorBySpeedModule ColorBySpeedModule ó             Ä     bool enabled    	          @      MinMaxGradient gradient é   
+          Ä     GradientNEW maxGradient B             Ä     ColorRGBA key0                    UInt32 rgba                    ColorRGBA key1                    UInt32 rgba                    ColorRGBA key2                    UInt32 rgba                    ColorRGBA key3                    UInt32 rgba                    ColorRGBA key4                    UInt32 rgba                    ColorRGBA key5                    UInt32 rgba                    ColorRGBA key6                    UInt32 rgba                    ColorRGBA key7                    UInt32 rgba                    UInt16 ctime0                     UInt16 ctime1                     UInt16 ctime2                     UInt16 ctime3                     UInt16 ctime4                      UInt16 ctime5    !                 UInt16 ctime6    "                 UInt16 ctime7    #                 UInt16 atime0    $                 UInt16 atime1    %                 UInt16 atime2    &                 UInt16 atime3    '                 UInt16 atime4    (                 UInt16 atime5    )                 UInt16 atime6    *                 UInt16 atime7    +                 UInt8 m_NumColorKeys    ,                 UInt8 m_NumAlphaKeys    -          @      GradientNEW minGradient B   .          Ä     ColorRGBA key0    /                UInt32 rgba    0                ColorRGBA key1    1                UInt32 rgba    2                ColorRGBA key2    3                UInt32 rgba    4                ColorRGBA key3    5                UInt32 rgba    6                ColorRGBA key4    7                UInt32 rgba    8                ColorRGBA key5    9                UInt32 rgba    :                ColorRGBA key6    ;                UInt32 rgba    <                ColorRGBA key7    =                UInt32 rgba    >                UInt16 ctime0    ?                 UInt16 ctime1    @                 UInt16 ctime2    A                 UInt16 ctime3    B                 UInt16 ctime4    C                 UInt16 ctime5    D                 UInt16 ctime6    E                 UInt16 ctime7    F                 UInt16 atime0    G                 UInt16 atime1    H                 UInt16 atime2    I                 UInt16 atime3    J                 UInt16 atime4    K                 UInt16 atime5    L                 UInt16 atime6    M                 UInt16 atime7    N                 UInt8 m_NumColorKeys    O                 UInt8 m_NumAlphaKeys    P          @      ColorRGBA minColor    Q                UInt32 rgba    R                ColorRGBA maxColor    S                UInt32 rgba    T                SInt16 minMaxState    U          @      Vector2f range    V                float x    W                 float y    X                 CollisionModule CollisionModule E   Y          Ä     bool enabled    Z          @      int type    [                 PPtr<Transform> plane0    \                SInt32 m_FileID    ]                SInt32 m_PathID    ^                PPtr<Transform> plane1    _                SInt32 m_FileID    `                SInt32 m_PathID    a                PPtr<Transform> plane2    b                SInt32 m_FileID    c                SInt32 m_PathID    d                PPtr<Transform> plane3    e                SInt32 m_FileID    f                SInt32 m_PathID    g                PPtr<Transform> plane4    h                SInt32 m_FileID    i                SInt32 m_PathID    j                PPtr<Transform> plane5    k                SInt32 m_FileID    l                SInt32 m_PathID    m                float dampen    n                 float bounce    o                 float energyLossOnCollision    p                 float minKillSpeed    q                 SubModule SubModule    r          Ä     bool enabled    s          @      PPtr<ParticleSystem> subEmitterBirth    t                SInt32 m_FileID    u                SInt32 m_PathID    v                PPtr<ParticleSystem> subEmitterDeath    w                SInt32 m_FileID    x                SInt32 m_PathID    y                PPtr<ParticleSystem> subEmitterCollision    z                SInt32 m_FileID    {                SInt32 m_PathID    |                «   ParticleSystemRenderer Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PPtr<EditorExtension> m_PrefabParentObject                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<Prefab> m_PrefabInternal                   SInt32 m_FileID                    SInt32 m_PathID                    PPtr<GameObject> m_GameObject              A     SInt32 m_FileID    	          A      SInt32 m_PathID    
+          A      bool m_Enabled                     bool m_CastShadows                      bool m_ReceiveShadows                      UInt8 m_LightmapIndex                     Vector4f m_LightmapTilingOffset                    float x                     float y                     float z                     float w                     vector m_Materials ˇˇˇˇ                 Array Array ˇˇˇˇ                SInt32 size                      PPtr<Material> data                     SInt32 m_FileID                     SInt32 m_PathID                     vector m_SubsetIndices ˇˇˇˇ                Array Array ˇˇˇˇ               SInt32 size                     UInt32 data                     PPtr<Transform> m_StaticBatchRoot                    SInt32 m_FileID                     SInt32 m_PathID                      bool m_UseLightProbes    !           @      PPtr<Transform> m_LightProbeAnchor    "                 SInt32 m_FileID    #                 SInt32 m_PathID    $                 float m_ScaleInLightmap    %                 int m_RenderMode    &                  float m_MaxParticleSize    '                  float m_CameraVelocityScale    (                  float m_VelocityScale    )                  float m_LengthScale    *                  float m_SortingFudge    +                  int m_SortMode    ,                  PPtr<Mesh> m_Mesh    -                 SInt32 m_FileID    .                 SInt32 m_PathID    /                 È  Prefab Base ˇˇˇˇ            Ä     UInt32 m_ObjectHideFlags                     PrefabModification m_Modification ˇˇˇˇ          Ä     PPtr<Transform> m_TransformParent                    SInt32 m_FileID                     SInt32 m_PathID                     vector m_Modifications ˇˇˇˇ          Ä     Array Array ˇˇˇˇ         Ä     SInt32 size                     PropertyModification data ˇˇˇˇ	          Ä     PPtr<Object> target    
+                SInt32 m_FileID                     SInt32 m_PathID                     string propertyPath ˇˇˇˇ          Ä     Array Array ˇˇˇˇ         @     SInt32 size                     char data                     string value ˇˇˇˇ          Ä     Array Array ˇˇˇˇ         @     SInt32 size                     char data                     PPtr<Object> objectReference                    SInt32 m_FileID                     SInt32 m_PathID                     vector m_RemovedComponents ˇˇˇˇ                Array Array ˇˇˇˇ               SInt32 size                     PPtr<Object> data                    SInt32 m_FileID                     SInt32 m_PathID                     PPtr<Prefab> m_ParentPrefab                    SInt32 m_FileID                     SInt32 m_PathID                      PPtr<GameObject> m_RootGameObject    !                SInt32 m_FileID    "                 SInt32 m_PathID    #                 bool m_IsPrefabParent    $                 bool m_IsExploded    %          @          “                          X   h   h      x               Ä   v   ù   ù      ¯   4   ƒ   ƒ   :ú 0  i         :ú †  P         :ú   X         :ú H  $   !   !   Ôkp  i         k‡  P         Òk0  X         Úkà  $   !   !   U‚Ï∞  i         V‚Ï   P         W‚Ïp  X         X‚Ï»  $   !   !   V &  i         W &`  P         X &∞  X         Y &  $   !   !   ã;_0  i         å;_†  P         ç;_  X         é;_H  $   !   !   á≈p  i         à≈‡  P         â≈0  X         ä≈à  $   !   !   Z©∞  i         Z© 	  P         Z©p	  X         Z©»	  $   !   !   £m√	  i         §m√`
+  P         •m√∞
+  X         ¶m√  $   !   !   éÁ0  i         èÁ†  P         êÁ  X         ëÁH  $   !   !   0”op  i         1”o‡  P         2”o0  X         3”oà  $   !   !   
+yÎ∞ 
+ i         yÎ   P         yÎp  X         yÎ»  $   !   !   1.j	  i         2.j	`  P         3.j	∞  X         4.j	  $   !   !   ƒ˝	0  i         ≈˝	†  P         ∆˝	  X         «˝	H  $   !   !   Ÿp  i         ⁄‡  P         €0  X         ‹à  $   !   !   ˜£b∞  i         ¯£b   P         ˘£bp  X         ˙£b»  $   !   !   Q√  i         R√`  P         S√∞  X         T√  $   !   !   o¨0  i         p¨†  P         q¨  X         r¨H  $   !   !   π÷p  ƒ  È  È  °∞f8  i         ¢∞f®  P         £∞f¯  X         §∞fP  $   !   !   [eöx  i         \eöË  P         ]eö8  X         ^eöê  $   !   !   èã∏  i         êã(  P         ëãx  X         íã–  $   !   !   ⁄†l¯  ]         €†lX  P         ‹†l®  }   `   `   U1n(  i         V1nò  P         W1nË  X         X1n@  $   !   !   y&πh  i         z&πÿ  P         {&π(  X         |&πÄ  $   !   !   ﬁ°C®  i         ﬂ°C   P         ‡°Ch   X         ·°C¿   $   !   !   q˜Ë   Ï  È  È  :4ˇÿ"  i         ;4ˇH#  P         <4ˇò#  X         =4ˇ#  $   !   !   ”Q’$  i         ‘Q’à$  P         ’Q’ÿ$  X         ÷Q’0%  $   !   !    ¸8X%  ∏  È  È  …Ù;'  i          Ù;Ä'  P         ÀÙ;–'  X         ÃÙ;((  $   !   !   !ßP(  i         Ò!ß¿(  P         Ú!ß)  X         Û!ßh)  $   !   !   Ákﬁê)  i         Ëkﬁ *  P         ÈkﬁP*  X         Íkﬁ®*  $   !   !   ì–*  i         ì@+  P         	ìê+  X         
+ìË+  $   !   !   —6®,  i         “6®Ä,  P         ”6®–,  X         ‘6®(-  $   !   !   ˝Ÿ≠P-  i         ˛Ÿ≠¿-  P         ˇŸ≠.  X          ⁄≠h.  $   !   !   BuMê.  i         CuM /  P         DuMP/  X         EuM®/  $   !   !   Õﬁ–/  i         Õﬁ@0  P         Õﬁê0  X         ÕﬁË0  $   !   !   :mÛ1  i         ;mÛÄ1  P         <mÛ–1  X         =mÛ(2  $   !   !   ÒhP2  i         Úh¿2  P         Ûh3  X         Ùhh3  $   !   !   ~&
+ê3  i         &
+ 4  P         Ä&
+P4  X         Å&
+®4  $   !   !   ?•C–4  i         @•C@5  P         A•Cê5  X         B•CË5  $   !   !   ∏·J6  i         π·JÄ6  P         ∫·J–6  X         ª·J(7  $   !   !   A®P7  i         B®¿7  P         C®8  X         D®h8  $   !   !   àï°"ê8  i         âï°" 9  P         äï°"P9  X         ãï°"®9  $   !   !   pÂ#–9  i         qÂ#@:  P         rÂ#ê:  X         sÂ#Ë:  $   !   !   `ﬁ`#;  i         aﬁ`#Ä;  P         bﬁ`#–;  X         cﬁ`#(<  $   !   !   úbŒ#P<  i         ùbŒ#¿<  P         ûbŒ#=  X         übŒ#h=  $   !   !   âÀ'ê=  i         äÀ' >  P         ãÀ'P>  X         åÀ'®>  $   !   !   ™t(–>  i         ´t(@?  P         ¨t(ê?  X         ≠t(Ë?  $   !   !   ≥ﬁt)@  i         ¥ﬁt)Ä@  P         µﬁt)–@  X         ∂ﬁt)(A  $   !   !   “*PA  a         “*∏A  P         “*B  }   `   `   .Kﬂ*àB  i         /Kﬂ*¯B  P         0Kﬂ*HC  X         1Kﬂ*†C  $   !   !   •Cı,»C  i         ¶Cı,8D  P         ßCı,àD  X         ®Cı,‡D  $   !   !   ".E  i         #.xE  P         $.»E  X         %. F  $   !   !   Ÿ<.HF  i         ⁄<.∏F  P         €<.G  X         ‹<.`G  $   !   !   ﬁ˝z.àG  i         ﬂ˝z.¯G  P         ‡˝z.HH  X         ·˝z.†H  $   !   !   ÀP°.»H  i         ÃP°.8I  P         ÕP°.àI  X         ŒP°.‡I  $   !   !   SXö/J  i         TXö/xJ  P         UXö/»J  X         VXö/ K  $   !   !   ˝F<0HK  i         ˛F<0∏K  P         ˇF<0L  X          G<0`L  $   !   !   V%2àL  i         V%2¯L  P         V%2HM  X         V%2†M  $   !   !   ÁDh2»M  i         ËDh28N  P         ÈDh2àN  î   l   l   fòç5 O  i         gòç5êO  P         hòç5‡O  X         iòç58P  $   !   !   º7¿5`P  i         Ω7¿5–P  P         æ7¿5 Q  X         ø7¿5xQ  $   !   !   ö˛7†Q  i         õ˛7R  P         ú˛7`R  X         ù˛7∏R  $   !   !   ∫m\7‡R  i         ªm\7PS  P         ºm\7†S  X         Ωm\7¯S  $   !   !   ¡ùû7 T  i         ¬ùû7êT  P         √ùû7‡T  X         ƒùû78U  $   !   !   ™-œ7`U  i         ´-œ7–U  P         ¨-œ7 V  X         ≠-œ7xV  $   !   !   …79†V  i          79W  P         À79`W  X         Ã79∏W  $   !   !   ÿx:‡W  i         ÿx:PX  P         ÿx:†X  X         ÿx:¯X  $   !   !   &/; Y  i         '/;êY  P         (/;‡Y  X         )/;8Z  $   !   !   ûgà>`Z  i         ügà>–Z  P         †gà> [  X         °gà>x[  $   !   !   áõ?†[  i         áõ?\  P         áõ?`\  X         áõ?∏\  $   !   !   *S>@‡\  i         +S>@P]  P         ,S>@†]  X         -S>@¯]  $   !   !   Sqs@ ^  i         Tqs@ê^  P         Uqs@‡^  X         Vqs@8_  $   !   !   R∞÷A`_  i         S∞÷A–_  P         T∞÷A `  X         U∞÷Ax`  $   !   !   àkB†`  i         àkBa  P         àkB`a  X         àkB∏a  $   !   !   ¶6C‡a  i         ¶6CPb  P         ¶6C†b  X         ¶6C¯b  $   !   !   ß|C c  i         ®|Cêc  P         ©|C‡c  X         ™|C8d  $   !   !   Ç„C`d  i          Ç„C–d  P         !Ç„C e  X         "Ç„Cxe  $   !   !   ∫èE†e  i         ªèEf  P         ºèE`f  X         ΩèE∏f  $   !   !   ¿Ø”K‡f  i         ¡Ø”KPg  P         ¬Ø”K†g  X         √Ø”K¯g  $   !   !   ¿í\M h  i         ¡í\Mêh  P         ¬í\M‡h  X         √í\M8i  $   !   !   „ÁN`i  i         ‰ÁN–i  P         ÂÁN j  X         ÊÁNxj  $   !   !   Ω˘O†j  i         æ˘Ok  P         ø˘O`k  X         ¿˘O∏k  $   !   !   AslO‡k  i         BslOPl  P         CslO†l  X         DslO¯l  $   !   !   f=U m  i         g=Uêm  P         h=U‡m  î   l   l   ∆4„Uxn  i         «4„UËn  h         »4„UPo  X         …4„U®o  $   !   !   9pÍU–o  Q         :pÍU(p  X        {-•VÄs  q         |-•V¯s  P         }-•VHt  X         ~-•V†t  $   !   !   #qçW»t  i         $qçW8u  P         %qçWàu  X         &qçW‡u  $   !   !   µ©¿Wv  i         ∂©¿Wxv  P         ∑©¿W»v  X         ∏©¿W w  $   !   !   ±XHw  a         Ò±X∞w  P         Ú±X x  î   l   l   øKäZòx  i         ¿KäZy  P         ¡KäZXy  X         ¬KäZ∞y  $   !   !   H≈[ÿy  i         I≈[Hz  P         J≈[òz  X         K≈[z  $   !   !   º™\{  i         º™\à{  P         º™\ÿ{  X         	º™\0|  $   !   !    ﬂ√^X|  a         ﬂ√^¿|  p         ﬂ√^0}  î   l   l   ãn__»}  i         ån__8~  P         çn__à~  X         én__‡~  $   !   !   MÎça  i         NÎçax  P         OÎça»  X         PÎça Ä  $   !   !   Íp¢cHÄ  i         Îp¢c∏Ä  P         Ïp¢cÅ  X         Ìp¢c`Å  $   !   !   Î|>dàÅ  i         Ï|>d¯Å  P         Ì|>dHÇ  î   l   l   Õ¡e‡Ç  i         Œ¡ePÉ  P         œ¡e†É  X         –¡e¯É  $   !   !   lõ f Ñ  ï         mõ f∏Ñ  P         nõ fÖ  m         oõ fxÖ      Q   Q   põ fòÖ      \   \   qõ f∏Ö      |   |   rõ fÿÖ  \   ˇˇˇˇr   føÇf8Ü  i         gøÇf®Ü  P         høÇf¯Ü  X         iøÇfPá  $   !   !   Ôÿˇgxá  i         ÿˇgËá  P         Òÿˇg8à  X         Úÿˇgêà  $   !   !   yúi∏à  y         yúi8â  P         yúiàâ  X         yúi‡â  $   !   !   yúiä  @   A   A   ≈;ÊiHä  i         ∆;Êi∏ä  P         «;Êiã  X         »;Êi`ã  $   !   !   ê màã  i         ë m¯ã  P         í mHå  X         ì m†å  $   !   !   K∞m»å  i         L∞m8ç  P         M∞màç  X         N∞m‡ç  $   !   !   yâ–oé  i         zâ–oxé  P         {â–o»é  X         |â–o è  $   !   !   yÜ}rHè  i         zÜ}r∏è  P         {Ü}rê  X         |Ü}r`ê  $   !   !   7EMvàê  i         8EMv¯ê  P         9EMvHë  X         :EMv†ë  $   !   !   Ãüπv»ë  i         Õüπv8í  P         Œüπvàí  î   l   l   ‚˙´w ì  i         „˙´wêì  P         ‰˙´w‡ì  X         Â˙´w8î  $   !   !   @À+y`î  i         AÀ+y–î  P         BÀ+y ï  X         CÀ+yxï  $   !   !   ù¨Ày†ï  q         û¨Àyñ  P         ü¨Àyhñ  ÿ  ∆   ∆   †¨Ày@¢  |   «   «   Á,{¿¢  i         Á,{0£  P         Á,{Ä£  X         Á,{ÿ£  $   !   !   'œ{ §  i         (œ{p§  P         )œ{¿§  X         *œ{•  $   !   !   ärı{@•  i         ãrı{∞•  P         årı{ ¶  X         çrı{X¶  $   !   !   [€≈Ä¶  i         \€≈¶  P         ]€≈@ß  X         ^€≈òß  $   !   !      Assets/LeanTween/Examples/Prefabs/Grids.prefab ¶Ÿ(≤ôBÍß!¿˜≤
+v   Assets/LeanTween/Examples/Prefabs/Grids.prefab Assets/LeanTween/Examples/Material/GridLines.mat ©`.Ö>˚F‡àÑ;Ú˝{   Assets/LeanTween/Examples/Material/GridLines.mat                     library/unity default resources Assets/LeanTween/Examples/Prefabs/AvatarSparkles.prefab ∑ó∂Ñ…LLtú¡ M1∂‡E   Assets/LeanTween/Examples/Prefabs/AvatarSparkles.prefab Assets/LeanTween/Examples/Models/Materials/LineGlowMaterial.mat V¯‰´ÃNâ≠Ê=tç-   Assets/LeanTween/Examples/Models/Materials/LineGlowMaterial.mat Assets/LeanTween/Examples/Models/CurvePathsText.fbx )e.∫&FêvŸ√ª˙ˆ@   library/metadata/92/9256e250ab62647109679d3cbbaf6f04 Assets/LeanTween/Examples/Models/Materials/SubTitleText.mat 3ã¢"—F»•Ø°Ü¢RÈ’   Assets/LeanTween/Examples/Models/Materials/SubTitleText.mat Assets/LeanTween/Examples/Material/PointMark.mat ~◊KπúøFôí`UB≈ûÀY   Assets/LeanTween/Examples/Material/PointMark.mat Assets/LeanTween/Examples/Models/Materials/SimpleAvatarBlue.mat é∆Ê^«ML ÆÖ% µ|{<   Assets/LeanTween/Examples/Models/Materials/SimpleAvatarBlue.mat Assets/LeanTween/Examples/Models/SimpleAvatar.fbx åú$ô¯~NHµﬁ2P€0Ò   library/metadata/c8/c8c942998fe7e4845bed23e105bd031f Assets/LeanTween/Examples/Scripts/PathSplines.cs Ì0iÍ„˛E¡ë‡ñ&ê@E   library/cache/de/de0396ae3eef541c190f0e6962090454 Assets/LeanTween/Examples/Material/Ground.mat láPyÑB\µ≤ï[€*5   Assets/LeanTween/Examples/Material/Ground.mat Assets/LeanTween/Examples/Material/FrictionLess.physicMaterial Qu%pzK/∑‹§+Í+>   Assets/LeanTween/Examples/Material/FrictionLess.physicMaterial Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat ˇaø§	ÔHÎúå/iâ™‡ﬁ   Assets/LeanTween/Examples/Material/TrailFollowMaterial.mat                                Ä?     †        ?   ?   ?  Ä?   
+◊#<      ñCÕÃL>ÕÃL>ÕÃL>  Ä?           ?  Ä?                                                         HB            Ä?  Ä?ˆ(\?{n?  Ä?  Ä?           Ë  ÕÃL=           ÕÃÃ=  Ä?  Ä?               ?   @  4BÕÃÃ>               @UUÖA   A                   Já      ¸8          :ú !       :ú        :ú        GridLine   Untagged                              *      ¸8    :ú               Ä?   ÄúÏq∑ö	®¬
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    :ú ˇ  Ä?  Ä?                                           Ä?       H[2      ¸8    :ú    ⁄'             ^á      ¸8          k!       Úk       Òk       GridLine   Untagged                              >      ¸8    Ôk¯5øgõ¥  @¥Ô5?   Ä   A    ◊#=ôÂ]D
+◊#=        :pÍU       #      ¸8    Ôkˇ  Ä?  Ä?                                           Ä?       \[2      ¸8    Ôk   ⁄'             ÍÜ      ¸8          V‚Ï!       X‚Ï       W‚Ï       GridLine   Untagged                                     ¸8    U‚Ï              Ä?   Ä¸Èw∑ö	†¬
+◊#=õÂ]D
+◊#=        :pÍU       ®#      ¸8    U‚Ïˇ  Ä?  Ä?                                           Ä?       ËZ2      ¸8    U‚Ï   ⁄'             Rá      ¸8          W &!       Y &       X &       GridLine   Untagged                              2      ¸8    V &              Ä?      x∑  @¡
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    V &ˇ  Ä?  Ä?                                           Ä?       P[2      ¸8    V &   ⁄'             á      ¸8          å;_!       é;_       ç;_       GridLine   Untagged                              Ù      ¸8    ã;_              Ä?      r∑   A
+◊#=õÂ]D
+◊#=        :pÍU       “#      ¸8    ã;_ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    ã;_   ⁄'             á      ¸8          à≈!       ä≈       â≈       GridLine   Untagged                              Ú      ¸8    á≈              Ä?      r∑  ‡A
+◊#=õÂ]D
+◊#=        :pÍU       –#      ¸8    á≈ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    á≈   ⁄'             &á      ¸8          Z©!       Z©       Z©       GridLine   Untagged                                    ¸8    Z©¯5øgõ¥  @¥Ô5?   Ä   Ä<k_7◊#=ôÂ]D
+◊#=        :pÍU       ‰#      ¸8    Z©ˇ  Ä?  Ä?                                           Ä?       $[2      ¸8    Z©   ⁄'             $á      ¸8          §m√!       ¶m√       •m√       GridLine   Untagged                                    ¸8    £m√              Ä?   Ä¯ˇq∑ö	¥¬
+◊#=õÂ]D
+◊#=        :pÍU       ‚#      ¸8    £m√ˇ  Ä?  Ä?                                           Ä?       "[2      ¸8    £m√   ⁄'             á      ¸8          èÁ!       ëÁ       êÁ       GridLine   Untagged                              ¯      ¸8    éÁ              Ä?      r∑  ¿¡
+◊#=õÂ]D
+◊#=        :pÍU       ÷#      ¸8    éÁˇ  Ä?  Ä?                                           Ä?       [2      ¸8    éÁ   ⁄'             á      ¸8          1”o!       3”o       2”o       GridLine   Untagged                              Ë      ¸8    0”o              Ä?      r∑  A
+◊#=õÂ]D
+◊#=        :pÍU       ∆#      ¸8    0”oˇ  Ä?  Ä?                                           Ä?       [2      ¸8    0”o   ⁄'             ƒÜ      ¸8          yÎ!       yÎ       yÎ       GridLine   Untagged                              §      ¸8    
+yÎ              Ä?      r∑  –A
+◊#=õÂ]D
+◊#=        :pÍU       Ñ#      ¸8    
+yÎˇ  Ä?  Ä?                                           Ä?       ƒZ2      ¸8    
+yÎ   ⁄'             bá      ¸8          2.j	!       4.j	       3.j	       GridLine   Untagged                              B      ¸8    1.j	              Ä?    4˚q∑.¬
+◊#=õÂ]D
+◊#=        :pÍU        #      ¸8    1.j	ˇ  Ä?  Ä?                                           Ä?       `[2      ¸8    1.j	   ⁄'             ∫Ü      ¸8          ≈˝	!       «˝	       ∆˝	       GridLine   Untagged                              ö      ¸8    ƒ˝	              Ä?      x∑  Ä¿
+◊#=õÂ]D
+◊#=        :pÍU       z#      ¸8    ƒ˝	ˇ  Ä?  Ä?                                           Ä?       ∫Z2      ¸8    ƒ˝	   ⁄'             ÃÜ      ¸8          ⁄!       ‹       €       GridLine   Untagged                              ¨      ¸8    Ÿ              Ä?      r∑  ∞A
+◊#=õÂ]D
+◊#=        :pÍU       ä#      ¸8    Ÿˇ  Ä?  Ä?                                           Ä?        Z2      ¸8    Ÿ   ⁄'             ¥Ü      ¸8          ¯£b!       ˙£b       ˘£b       GridLine   Untagged                              î      ¸8    ˜£b¯5øgõ¥  @¥Ô5?   Ä  A   Ä◊#=ôÂ]D
+◊#=        :pÍU       t#      ¸8    ˜£bˇ  Ä?  Ä?                                           Ä?       ¥Z2      ¸8    ˜£b   ⁄'             á      ¸8          R√!       T√       S√       GridLine   Untagged                              ‰      ¸8    Q√              Ä?    òÔw∑ö	ò¬
+◊#=õÂ]D
+◊#=        :pÍU       ¬#      ¸8    Q√ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    Q√   ⁄'             
+á      ¸8          p¨!       r¨       q¨       GridLine   Untagged                              Í      ¸8    o¨¯5øgõ¥  @¥Ô5?   Ä  ¿A   Ä◊#=ôÂ]D
+◊#=        :pÍU       »#      ¸8    o¨ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    o¨   ⁄'                        Ñ    m_LocalPosition.x   
+   13.3323097             Ñ    m_LocalPosition.y      .0500000007            Ñ    m_LocalPosition.z   
+   40.3469353             Ñ    m_LocalRotation.x      0              Ñ    m_LocalRotation.y      1              Ñ    m_LocalRotation.z      0              Ñ    m_LocalRotation.w      -1.62920685e-07            §Ü    m_Name     Avatar1                †g˜    ∆4„U              0á      ¸8          ¢∞f!       §∞f       £∞f       GridLine   Untagged                                    ¸8    °∞f¯5øgõ¥  @¥Ô5?   Ä  `A    ◊#=ôÂ]D
+◊#=        :pÍU       Ó#      ¸8    °∞fˇ  Ä?  Ä?                                           Ä?       .[2      ¸8    °∞f   ⁄'             ‘Ü      ¸8          \eö!       ^eö       ]eö       GridLine   Untagged                              ¥      ¸8    [eö¯5øgõ¥  @¥Ô5?   Ä  Ä¿G6î7◊#=ôÂ]D
+◊#=        :pÍU       í#      ¸8    [eöˇ  Ä?  Ä?                                           Ä?       “Z2      ¸8    [eö   ⁄'             4á      ¸8          êã!       íã       ëã       GridLine   Untagged                                    ¸8    èã¯5øgõ¥  @¥Ô5?      †¡@%Ù7◊#=ôÂ]D
+◊#=        :pÍU       Ú#      ¸8    èãˇ  Ä?  Ä?                                           Ä?       2[2      ¸8    èã   ⁄'             †Ü     π÷          €†l`       ‹†l       TopLine    Untagged                          Ä     π÷    ⁄†l      Äø    LÔ.¥ÇS‘3pmo@ \õæ  Ä?  Ä?  Ä?        «4„U        |í     π÷    ⁄†lˇ  Ä?  Ä?                                           Ä?   AÕÃÃ=ÕÃÃ=ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ ÕÃÃ=           2á      ¸8          V1n!       X1n       W1n       GridLine   Untagged                                    ¸8    U1n              Ä?      r∑  †¡
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    U1nˇ  Ä?  Ä?                                           Ä?       0[2      ¸8    U1n   ⁄'             `á      ¸8          z&π!       |&π       {&π       GridLine   Untagged                              @      ¸8    y&π¯5øgõ¥  @¥Ô5?      Ä¡∞õÍ7◊#=ôÂ]D
+◊#=        :pÍU       #      ¸8    y&πˇ  Ä?  Ä?                                           Ä?       ^[2      ¸8    y&π   ⁄'             ⁄Ü      ¸8          ﬂ°C!       ·°C       ‡°C       GridLine   Untagged                              ∫      ¸8    ﬁ°C¯5øgõ¥  @¥Ô5?      ê¡w`Ô7◊#=ôÂ]D
+◊#=        :pÍU       ò#      ¸8    ﬁ°Cˇ  Ä?  Ä?                                           Ä?       ÿZ2      ¸8    ﬁ°C   ⁄'                        Ä    m_LocalPosition.x   
+   1.26237297             Ä    m_LocalPosition.y   
+   7.21474457             Ä    m_LocalPosition.z   
+   5.19843578             Ä    m_LocalRotation.x      .00599936303           Ä    m_LocalRotation.y      -.999043941            Ä    m_LocalRotation.z      .00042852413           Ä    m_LocalRotation.w      .0433035493            `#    m_Materials.Array.data[0]                   `_©    †g˜    {-•V              §Ü      ¸8          ;4ˇ!       =4ˇ       <4ˇ       GridLine   Untagged                              Ñ      ¸8    :4ˇ              Ä?    è˜q∑õ	¿¬
+◊#=õÂ]D
+◊#=        :pÍU       d#      ¸8    :4ˇˇ  Ä?  Ä?                                           Ä?       §Z2      ¸8    :4ˇ   ⁄'             ÚÜ      ¸8          ‘Q’!       ÷Q’       ’Q’       GridLine   Untagged                              “      ¸8    ”Q’¯5øgõ¥  @¥Ô5?   Ä  êA    ◊#=ôÂ]D
+◊#=        :pÍU       ∞#      ¸8    ”Q’ˇ  Ä?  Ä?                                           Ä?       Z2      ¸8    ”Q’   ⁄'                        ®    m_LocalPosition.x   
+   351.737762             ®    m_LocalPosition.y   	   25.105957              ®    m_LocalPosition.z   
+   135.241714             ®    m_LocalRotation.x      -1.58214348e-07            ®    m_LocalRotation.y   
+   .881686568             ®    m_LocalRotation.z      1.44746309e-07             ®    m_LocalRotation.w   
+   .471835643                 †g˜    9pÍU          Xá      ¸8           Ù;!       ÃÙ;       ÀÙ;       GridLine   Untagged                              8      ¸8    …Ù;              Ä?    Mıq∑3h¬
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    …Ù;ˇ  Ä?  Ä?                                           Ä?       V[2      ¸8    …Ù;   ⁄'             ¿Ü      ¸8          Ò!ß!       Û!ß       Ú!ß       GridLine   Untagged                              †      ¸8    !ß              Ä?   Ä[Íq∑18¬
+◊#=õÂ]D
+◊#=        :pÍU       Ä#      ¸8    !ßˇ  Ä?  Ä?                                           Ä?       ¿Z2      ¸8    !ß   ⁄'             “Ü      ¸8          Ëkﬁ!       Íkﬁ       Èkﬁ       GridLine   Untagged                              ≤      ¸8    Ákﬁ¯5øgõ¥  @¥Ô5?      ∞¡˝8◊#=ôÂ]D
+◊#=        :pÍU       ê#      ¸8    Ákﬁˇ  Ä?  Ä?                                           Ä?       –Z2      ¸8    Ákﬁ   ⁄'             Tá      ¸8          ì!       
+ì       	ì       GridLine   Untagged                              4      ¸8    ì              Ä?      x∑  ¿¿
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    ìˇ  Ä?  Ä?                                           Ä?       R[2      ¸8    ì   ⁄'             \á      ¸8          “6®!       ‘6®       ”6®       GridLine   Untagged                              <      ¸8    —6®¯5øgõ¥  @¥Ô5?      –¡.Ü8◊#=ôÂ]D
+◊#=        :pÍU       #      ¸8    —6®ˇ  Ä?  Ä?                                           Ä?       Z[2      ¸8    —6®   ⁄'              á      ¸8          ˛Ÿ≠!        ⁄≠       ˇŸ≠       GridLine   Untagged                              ‡      ¸8    ˝Ÿ≠              Ä?      r∑   @
+◊#=õÂ]D
+◊#=        :pÍU       æ#      ¸8    ˝Ÿ≠ˇ  Ä?  Ä?                                           Ä?       ˛Z2      ¸8    ˝Ÿ≠   ⁄'             ‹Ü      ¸8          CuM!       EuM       DuM       GridLine   Untagged                              º      ¸8    BuM              Ä?   Äe¯q∑/¬
+◊#=õÂ]D
+◊#=        :pÍU       ö#      ¸8    BuMˇ  Ä?  Ä?                                           Ä?       ⁄Z2      ¸8    BuM   ⁄'                                    Õﬁ!       Õﬁ       Õﬁ       Cube3      Untagged                                               Õﬁ    sª^>    Îﬁy?~qAÕÃÃ=\KbA  Ä?  Ä?  Ä?                                    Õﬁˇ  Ä?  Ä?                                           Ä?                        Õﬁ   ⁄'             á      ¸8          ;mÛ!       =mÛ       <mÛ       GridLine   Untagged                              ˙      ¸8    :mÛ              Ä?    (˝q∑ö	∏¬
+◊#=õÂ]D
+◊#=        :pÍU       ÿ#      ¸8    :mÛˇ  Ä?  Ä?                                           Ä?       [2      ¸8    :mÛ   ⁄'             æÜ      ¸8          Úh!       Ùh       Ûh       GridLine   Untagged                              û      ¸8    Òh              Ä?    Î˙q∑2X¬
+◊#=õÂ]D
+◊#=        :pÍU       ~#      ¸8    Òhˇ  Ä?  Ä?                                           Ä?       æZ2      ¸8    Òh   ⁄'             ÙÜ      ¸8          &
+!       Å&
+       Ä&
+       GridLine   Untagged                              ‘      ¸8    ~&
+              Ä?   ÄgÚw∑ô	î¬
+◊#=õÂ]D
+◊#=        :pÍU       ≤#      ¸8    ~&
+ˇ  Ä?  Ä?                                           Ä?       ÚZ2      ¸8    ~&
+   ⁄'             ,á      ¸8          @•C!       B•C       A•C       GridLine   Untagged                                    ¸8    ?•C¯5øgõ¥  @¥Ô5?      @¡*‚À7◊#=ôÂ]D
+◊#=        :pÍU       Í#      ¸8    ?•Cˇ  Ä?  Ä?                                           Ä?       *[2      ¸8    ?•C   ⁄'             ¬Ü      ¸8          π·J!       ª·J       ∫·J       GridLine   Untagged                              ¢      ¸8    ∏·J              Ä?   Äá r∑0H¬
+◊#=õÂ]D
+◊#=        :pÍU       Ç#      ¸8    ∏·Jˇ  Ä?  Ä?                                           Ä?       ¬Z2      ¸8    ∏·J   ⁄'             @á      ¸8          B®!       D®       C®       GridLine   Untagged                                     ¸8    A®              Ä?      x∑   ¡
+◊#=õÂ]D
+◊#=        :pÍU       ˛#      ¸8    A®ˇ  Ä?  Ä?                                           Ä?       >[2      ¸8    A®   ⁄'             á      ¸8          âï°"!       ãï°"       äï°"       GridLine   Untagged                              Ï      ¸8    àï°"              Ä?    ˘Ôq∑0(¬
+◊#=õÂ]D
+◊#=        :pÍU        #      ¸8    àï°"ˇ  Ä?  Ä?                                           Ä?       
+[2      ¸8    àï°"   ⁄'             ∆Ü      ¸8          qÂ#!       sÂ#       rÂ#       GridLine   Untagged                              ¶      ¸8    pÂ#              Ä?      x∑   ¡
+◊#=õÂ]D
+◊#=        :pÍU       Ü#      ¸8    pÂ#ˇ  Ä?  Ä?                                           Ä?       ∆Z2      ¸8    pÂ#   ⁄'             á      ¸8          aﬁ`#!       cﬁ`#       bﬁ`#       GridLine   Untagged                              Ê      ¸8    `ﬁ`#¯5øgõ¥  @¥Ô5?      ‡¡$Ã8◊#=ôÂ]D
+◊#=        :pÍU       ƒ#      ¸8    `ﬁ`#ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    `ﬁ`#   ⁄'             Há      ¸8          ùbŒ#!       übŒ#       ûbŒ#       GridLine   Untagged                              (      ¸8    úbŒ#              Ä?      r∑  `A
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    úbŒ#ˇ  Ä?  Ä?                                           Ä?       F[2      ¸8    úbŒ#   ⁄'             á      ¸8          äÀ'!       åÀ'       ãÀ'       GridLine   Untagged                              ¸      ¸8    âÀ'              Ä?      r∑  ¿@
+◊#=õÂ]D
+◊#=        :pÍU       ⁄#      ¸8    âÀ'ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    âÀ'   ⁄'             ∏Ü      ¸8          ´t(!       ≠t(       ¨t(       GridLine   Untagged                              ò      ¸8    ™t(¯5øgõ¥  @¥Ô5?   Ä   A    ◊#=ôÂ]D
+◊#=        :pÍU       x#      ¸8    ™t(ˇ  Ä?  Ä?                                           Ä?       ∏Z2      ¸8    ™t(   ⁄'             ‚Ü      ¸8          ¥ﬁt)!       ∂ﬁt)       µﬁt)       GridLine   Untagged                              ¬      ¸8    ≥ﬁt)¯5øgõ¥  @¥Ô5?   Ä  ∞A   Ä◊#=ôÂ]D
+◊#=        :pÍU       †#      ¸8    ≥ﬁt)ˇ  Ä?  Ä?                                           Ä?       ‡Z2      ¸8    ≥ﬁt)   ⁄'             ¢Ü     π÷          “*`       “*    
+   BottomLine     Untagged                              Ç     π÷    “*      Äø    LÔ.¥S7™4    @yø  Ä?  Ä?  Ä?        «4„U       |í     π÷    “*ˇ  Ä?  Ä?                                           Ä?   AÕÃÃ=ÕÃÃ=ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ ÕÃÃ=           ¸Ü      ¸8          /Kﬂ*!       1Kﬂ*       0Kﬂ*       GridLine   Untagged                              ‹      ¸8    .Kﬂ*              Ä?    jÔq∑ö	§¬
+◊#=õÂ]D
+◊#=        :pÍU       ∫#      ¸8    .Kﬂ*ˇ  Ä?  Ä?                                           Ä?       ˙Z2      ¸8    .Kﬂ*   ⁄'             ËÜ      ¸8          ¶Cı,!       ®Cı,       ßCı,       GridLine   Untagged                              »      ¸8    •Cı,              Ä?    ≥Ôq∑1x¬
+◊#=õÂ]D
+◊#=        :pÍU       ¶#      ¸8    •Cı,ˇ  Ä?  Ä?                                           Ä?       ÊZ2      ¸8    •Cı,   ⁄'             ¯Ü      ¸8          #.!       %.       $.       GridLine   Untagged                              ÿ      ¸8    ".              Ä?   Ä„Ïq∑ô	Ä¬
+◊#=õÂ]D
+◊#=        :pÍU       ∂#      ¸8    ".ˇ  Ä?  Ä?                                           Ä?       ˆZ2      ¸8    ".   ⁄'             Dá      ¸8          ⁄<.!       ‹<.       €<.       GridLine   Untagged                              $      ¸8    Ÿ<.¯5øgõ¥  @¥Ô5?       ¿[™â7◊#=ôÂ]D
+◊#=        :pÍU       #      ¸8    Ÿ<.ˇ  Ä?  Ä?                                           Ä?       B[2      ¸8    Ÿ<.   ⁄'             ¨Ü      ¸8          ﬂ˝z.!       ·˝z.       ‡˝z.       GridLine   Untagged                              å      ¸8    ﬁ˝z.¯5øgõ¥  @¥Ô5?      `¡Û¶–7◊#=ôÂ]D
+◊#=        :pÍU       l#      ¸8    ﬁ˝z.ˇ  Ä?  Ä?                                           Ä?       ¨Z2      ¸8    ﬁ˝z.   ⁄'             ®Ü      ¸8          ÃP°.!       ŒP°.       ÕP°.       GridLine   Untagged                              à      ¸8    ÀP°.¯5øgõ¥  @¥Ô5?   Ä  ‡A   Ä◊#=ôÂ]D
+◊#=        :pÍU       h#      ¸8    ÀP°.ˇ  Ä?  Ä?                                           Ä?       ®Z2      ¸8    ÀP°.   ⁄'             ‡Ü      ¸8          TXö/!       VXö/       UXö/       GridLine   Untagged                              ¿      ¸8    SXö/¯5øgõ¥  @¥Ô5?   Ä  ÄA    ◊#=ôÂ]D
+◊#=        :pÍU       û#      ¸8    SXö/ˇ  Ä?  Ä?                                           Ä?       ﬁZ2      ¸8    SXö/   ⁄'                                    ˛F<0!        G<0       ˇF<0       Cube5      Untagged                                               ˝F<0    sª^>    Îﬁy?{qeAÕÃÃ=8cç¿  Ä?  Ä?  Ä?                                    ˝F<0ˇ  Ä?  Ä?                                           Ä?                        ˝F<0   ⁄'             ÊÜ      ¸8          V%2!       V%2       V%2       GridLine   Untagged                              ∆      ¸8    V%2              Ä?      r∑    
+◊#=õÂ]D
+◊#=        :pÍU       §#      ¸8    V%2ˇ  Ä?  Ä?                                           Ä?       ‰Z2      ¸8    V%2   ⁄'                                    ËDh2l       ÈDh2       Directional light      Untagged                                               ÁDh2    Ù5?    Ú5?   Ä          Ä?  Ä?  Ä?        ﬂ√^                        ÁDh2        Ä?¶≠q?      Ä?)\è=   A  A   A    ˇˇˇˇ  Ä?ÕÃL=  Ä@  Ä?                        ˇˇˇˇ                Ä?  Ä?  Ä?           Lá      ¸8          gòç5!       iòç5       hòç5       GridLine   Untagged                              ,      ¸8    fòç5              Ä?      r∑  ÄA
+◊#=õÂ]D
+◊#=        :pÍU       
+#      ¸8    fòç5ˇ  Ä?  Ä?                                           Ä?       J[2      ¸8    fòç5   ⁄'             6á      ¸8          Ω7¿5!       ø7¿5       æ7¿5       GridLine   Untagged                                    ¸8    º7¿5¯5øgõ¥  @¥Ô5?      ¡à.8◊#=ôÂ]D
+◊#=        :pÍU       Ù#      ¸8    º7¿5ˇ  Ä?  Ä?                                           Ä?       4[2      ¸8    º7¿5   ⁄'             ﬁÜ      ¸8          õ˛7!       ù˛7       ú˛7       GridLine   Untagged                              æ      ¸8    ö˛7              Ä?    ,Ìq∑00¬
+◊#=õÂ]D
+◊#=        :pÍU       ú#      ¸8    ö˛7ˇ  Ä?  Ä?                                           Ä?       ‹Z2      ¸8    ö˛7   ⁄'             Ná      ¸8          ªm\7!       Ωm\7       ºm\7       GridLine   Untagged                              .      ¸8    ∫m\7              Ä?   ÄÄÚq∑0p¬
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    ∫m\7ˇ  Ä?  Ä?                                           Ä?       L[2      ¸8    ∫m\7   ⁄'             ÆÜ      ¸8          ¬ùû7!       ƒùû7       √ùû7       GridLine   Untagged                              é      ¸8    ¡ùû7              Ä?    7ıw∑ô	ê¬
+◊#=õÂ]D
+◊#=        :pÍU       n#      ¸8    ¡ùû7ˇ  Ä?  Ä?                                           Ä?       ÆZ2      ¸8    ¡ùû7   ⁄'             >á      ¸8          ´-œ7!       ≠-œ7       ¨-œ7       GridLine   Untagged                                    ¸8    ™-œ7¯5øgõ¥  @¥Ô5?      Ä@XL7◊#=ôÂ]D
+◊#=        :pÍU       ¸#      ¸8    ™-œ7ˇ  Ä?  Ä?                                           Ä?       <[2      ¸8    ™-œ7   ⁄'             :á      ¸8           79!       Ã79       À79       GridLine   Untagged                                    ¸8    …79              Ä?    —˙w∑ô	à¬
+◊#=õÂ]D
+◊#=        :pÍU       ¯#      ¸8    …79ˇ  Ä?  Ä?                                           Ä?       8[2      ¸8    …79   ⁄'             á      ¸8          ÿx:!       ÿx:       ÿx:       GridLine   Untagged                              ˛      ¸8    ÿx:              Ä?      r∑   A
+◊#=õÂ]D
+◊#=        :pÍU       ‹#      ¸8    ÿx:ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    ÿx:   ⁄'             .á      ¸8          '/;!       )/;       (/;       GridLine   Untagged                                    ¸8    &/;              Ä?      r∑  Ä@
+◊#=õÂ]D
+◊#=        :pÍU       Ï#      ¸8    &/;ˇ  Ä?  Ä?                                           Ä?       ,[2      ¸8    &/;   ⁄'             ÏÜ      ¸8          ügà>!       °gà>       †gà>       GridLine   Untagged                              Ã      ¸8    ûgà>              Ä?    îıq∑0¬
+◊#=õÂ]D
+◊#=        :pÍU       ™#      ¸8    ûgà>ˇ  Ä?  Ä?                                           Ä?       ÍZ2      ¸8    ûgà>   ⁄'             ˛Ü      ¸8          áõ?!       áõ?       áõ?       GridLine   Untagged                              ﬁ      ¸8    áõ?              Ä?    éÁq∑1@¬
+◊#=õÂ]D
+◊#=        :pÍU       º#      ¸8    áõ?ˇ  Ä?  Ä?                                           Ä?       ¸Z2      ¸8    áõ?   ⁄'             –Ü      ¸8          +S>@!       -S>@       ,S>@       GridLine   Untagged                              ∞      ¸8    *S>@¯5øgõ¥  @¥Ô5?   Ä  –A   Ä◊#=ôÂ]D
+◊#=        :pÍU       é#      ¸8    *S>@ˇ  Ä?  Ä?                                           Ä?       ŒZ2      ¸8    *S>@   ⁄'             ºÜ      ¸8          Tqs@!       Vqs@       Uqs@       GridLine   Untagged                              ú      ¸8    Sqs@              Ä?      r∑  ê¡
+◊#=õÂ]D
+◊#=        :pÍU       |#      ¸8    Sqs@ˇ  Ä?  Ä?                                           Ä?       ºZ2      ¸8    Sqs@   ⁄'             Vá      ¸8          S∞÷A!       U∞÷A       T∞÷A       GridLine   Untagged                              6      ¸8    R∞÷A              Ä?   Äû˝w∑ö	Ñ¬
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    R∞÷Aˇ  Ä?  Ä?                                           Ä?       T[2      ¸8    R∞÷A   ⁄'             Zá      ¸8          àkB!       àkB       àkB       GridLine   Untagged                              :      ¸8    àkB¯5øgõ¥  @¥Ô5?      ¿¿ﬂc®7◊#=ôÂ]D
+◊#=        :pÍU       #      ¸8    àkBˇ  Ä?  Ä?                                           Ä?       X[2      ¸8    àkB   ⁄'                                    ¶6C!       ¶6C       ¶6C       Cube4      Untagged                                               ¶6C    sª^>    Îﬁy?h*®øÕÃÃ=ÏL÷@  Ä?  Ä?  Ä?                                    ¶6Cˇ  Ä?  Ä?                                           Ä?                        ¶6C   ⁄'             Pá      ¸8          ®|C!       ™|C       ©|C       GridLine   Untagged                              0      ¸8    ß|C              Ä?    ÀÈq∑ö	¨¬
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    ß|Cˇ  Ä?  Ä?                                           Ä?       N[2      ¸8    ß|C   ⁄'             ™Ü      ¸8           Ç„C!       "Ç„C       !Ç„C       GridLine   Untagged                              ä      ¸8    Ç„C¯5øgõ¥  @¥Ô5?   Ä  ¿@    ◊#=ôÂ]D
+◊#=        :pÍU       j#      ¸8    Ç„Cˇ  Ä?  Ä?                                           Ä?       ™Z2      ¸8    Ç„C   ⁄'             (á      ¸8          ªèE!       ΩèE       ºèE       GridLine   Untagged                                    ¸8    ∫èE              Ä?      x∑  Ä¡
+◊#=õÂ]D
+◊#=        :pÍU       Ê#      ¸8    ∫èEˇ  Ä?  Ä?                                           Ä?       &[2      ¸8    ∫èE   ⁄'             ¢Ü      ¸8          ¡Ø”K!       √Ø”K       ¬Ø”K       GridLine   Untagged                              Ç      ¸8    ¿Ø”K              Ä?      r∑   ¬
+◊#=õÂ]D
+◊#=        :pÍU       b#      ¸8    ¿Ø”Kˇ  Ä?  Ä?                                           Ä?       ¢Z2      ¸8    ¿Ø”K   ⁄'             ˆÜ      ¸8          ¡í\M!       √í\M       ¬í\M       GridLine   Untagged                              ÷      ¸8    ¿í\M              Ä?      r∑  ∞¡
+◊#=õÂ]D
+◊#=        :pÍU       ¥#      ¸8    ¿í\Mˇ  Ä?  Ä?                                           Ä?       ÙZ2      ¸8    ¿í\M   ⁄'             ŒÜ      ¸8          ‰ÁN!       ÊÁN       ÂÁN       GridLine   Untagged                              Æ      ¸8    „ÁN              Ä?    ∆Úq∑0 ¬
+◊#=õÂ]D
+◊#=        :pÍU       å#      ¸8    „ÁNˇ  Ä?  Ä?                                           Ä?       ÃZ2      ¸8    „ÁN   ⁄'             Bá      ¸8          æ˘O!       ¿˘O       ø˘O       GridLine   Untagged                              "      ¸8    Ω˘O¯5øgõ¥  @¥Ô5?   Ä  @A    ◊#=ôÂ]D
+◊#=        :pÍU        #      ¸8    Ω˘Oˇ  Ä?  Ä?                                           Ä?       @[2      ¸8    Ω˘O   ⁄'             ‰Ü      ¸8          BslO!       DslO       CslO       GridLine   Untagged                              ƒ      ¸8    AslO              Ä?   Ä¯w∑ô	å¬
+◊#=õÂ]D
+◊#=        :pÍU       ¢#      ¸8    AslOˇ  Ä?  Ä?                                           Ä?       ‚Z2      ¸8    AslO   ⁄'                                    g=Ul       h=U       Directional light      Untagged                                               f=U      Ä?    LÔ.¥   Ä          Ä?  Ä?  Ä?        ﬂ√^                        f=U      Åµ¸>ﬁ)Ÿ;·Wc?  Ä?ÏQ8>   A  A   A    ˇˇˇˇ  Ä?ÕÃL=  Ä@  Ä?                        ˇˇˇˇ                Ä?  Ä?  Ä?           §Ü     π÷          «4„U!       …4„U       »4„U       Avatar1    Untagged                              Ñ     π÷    ∆4„U      Ä?    LÔ.¥$QUAÕÃL=Cc!B  Ä?  Ä?  Ä?       “*    û¨Ày    €†l               `#     π÷    ∆4„Uˇ  Ä?  Ä?           	                                Ä?       †Z2     π÷    ∆4„U
+   ‚úA            »Ü      ¸8          :pÍU       Grids      Untagged                              ®      ¸8    9pÍU°·)¥6∂a?êk4qîÒ>oﬁØC Ÿ»A·=CÙtìAÙtìAÙtìAa       \€≈    ån__    äÀ'    gòç5    V1n    '/;    ªèE    ˛Ÿ≠    ùbŒ#    ì    zâ–o    ¿KäZ    ≈˝	    ∂©¿W    Îp¢c    èÁ    ë m    W &    qÂ#    B®    ¡í\M    ⁄    1”o    L∞m    à≈    ¡Ø”K    Tqs@    yÎ    ÿˇg    ÿx:    V%2    å;_    $qçW    ∆;Êi    +S>@     Ç„C    ´-œ7    ´t(    z&π    ‘Q’    “6®    TXö/    æ˘O    ¥ﬁt)    ﬂ°C    º™\    ⁄<.    ÃP°.    (œ{    k    ﬂ˝z.    àkB    ¢∞f    êã    \eö    p¨    @•C    NÎça    Á,{    Ëkﬁ    Z©    Ω7¿5    ¯£b    aﬁ`#    8EMv    ;4ˇ    ügà>    §m√    2.j	    Úh    õ˛7    /Kﬂ*    S∞÷A    ¶Cı,    Ò!ß    Œ¡e    R√    áõ?     Ù;    ‰ÁN    „˙´w    ®|C    &
+    :ú     BslO    CuM    ;mÛ     79    âï°"    zÜ}r    I≈[    AÀ+y    V‚Ï    #.    π·J    ªm\7    ¬ùû7               †Ü     q˜          |-•V!       ~-•V       }-•V       CurvePathsText     Untagged                              Ä     q˜    {-•VNñƒ;X¡øâ´‡9_1=pï°?0ﬂÊ@ñY¶@  Ä?  Ä?  Ä?                   `#     q˜    {-•Vˇ  Ä?  Ä?                                           Ä?       †Z2     q˜    {-•V   ‡úA            "á      ¸8          $qçW!       &qçW       %qçW       GridLine   Untagged                                    ¸8    #qçW¯5øgõ¥  @¥Ô5?   Ä   @¨·U7◊#=ôÂ]D
+◊#=        :pÍU       ‡#      ¸8    #qçWˇ  Ä?  Ä?                                           Ä?        [2      ¸8    #qçW   ⁄'             ∂Ü      ¸8          ∂©¿W!       ∏©¿W       ∑©¿W       GridLine   Untagged                              ñ      ¸8    µ©¿W              Ä?      x∑   ¿
+◊#=õÂ]D
+◊#=        :pÍU       v#      ¸8    µ©¿Wˇ  Ä?  Ä?                                           Ä?       ∂Z2      ¸8    µ©¿W   ⁄'                                    Ò±Xl       Ú±X       Point light    Untagged                                               ±XŸ‚Ï>¨[OæŒ >¨qZ?ú«@˙?gA@ëa?  Ä?  Ä?  Ä?                                    ±X        Ä?  Ä?  Ä?  Ä?◊£–?=
+DB  hB   A    ˇˇˇˇ  Ä?ÕÃL=  Ä@  Ä?                        ˇˇˇˇ                Ä?  Ä?  Ä?           ˙Ü      ¸8          ¿KäZ!       ¬KäZ       ¡KäZ       GridLine   Untagged                              ⁄      ¸8    øKäZ              Ä?      r∑  êA
+◊#=õÂ]D
+◊#=        :pÍU       ∏#      ¸8    øKäZˇ  Ä?  Ä?                                           Ä?       ¯Z2      ¸8    øKäZ   ⁄'             Ü      ¸8          I≈[!       K≈[       J≈[       GridLine   Untagged                              –      ¸8    H≈[              Ä?   Ä¯q∑2`¬
+◊#=õÂ]D
+◊#=        :pÍU       Æ#      ¸8    H≈[ˇ  Ä?  Ä?                                           Ä?       ÓZ2      ¸8    H≈[   ⁄'             á      ¸8          º™\!       	º™\       º™\       GridLine   Untagged                                    ¸8    º™\¯5øgõ¥  @¥Ô5?       ¡ß(≠7◊#=ôÂ]D
+◊#=        :pÍU       Œ#      ¸8    º™\ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    º™\   ⁄'                                    ﬂ√^l       ﬂ√^       Radial light   Untagged                                                ﬂ√^    ¬$DΩ    —¥?HíW@ù@P‰%¿  Ä?  Ä?  Ä?       Ï|>d    ËDh2    g=U    Õüπv                                 ﬂ√^        Ä?  Ä?  Ä?  Ä?
+◊#=   A  A   A    ˇˇˇˇ  Ä?ÕÃL=  Ä@  Ä?                        ˇˇˇˇ                Ä?  Ä?  Ä?           á      ¸8          ån__!       én__       çn__       GridLine   Untagged                              Ó      ¸8    ãn__              Ä?      r∑  †A
+◊#=õÂ]D
+◊#=        :pÍU       Ã#      ¸8    ãn__ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    ãn__   ⁄'             ÷Ü      ¸8          NÎça!       PÎça       OÎça       GridLine   Untagged                              ∂      ¸8    MÎça¯5øgõ¥  @¥Ô5?       ¡ì¥∑7◊#=ôÂ]D
+◊#=        :pÍU       î#      ¸8    MÎçaˇ  Ä?  Ä?                                           Ä?       ‘Z2      ¸8    MÎça   ⁄'             á      ¸8          Îp¢c!       Ìp¢c       Ïp¢c       GridLine   Untagged                              ‚      ¸8    Íp¢c              Ä?      r∑  ¿A
+◊#=õÂ]D
+◊#=        :pÍU       ¿#      ¸8    Íp¢cˇ  Ä?  Ä?                                           Ä?        [2      ¸8    Íp¢c   ⁄'                                    Ï|>dl       Ì|>d       Directional light      Untagged                                               Î|>d    Ù5ø    Ú5?              Ä?  Ä?  Ä?        ﬂ√^                        Î|>d      Åµ¸>ﬁ)Ÿ;·Wc?  Ä?ÏQ8>   A  A   A    ˇˇˇˇ  Ä?ÕÃL=  Ä@  Ä?                        ˇˇˇˇ                Ä?  Ä?  Ä?           ∞Ü      ¸8          Œ¡e!       –¡e       œ¡e       GridLine   Untagged                              ê      ¸8    Õ¡e              Ä?    ÀÏw∑ô	ú¬
+◊#=õÂ]D
+◊#=        :pÍU       p#      ¸8    Õ¡eˇ  Ä?  Ä?                                           Ä?       ∞Z2      ¸8    Õ¡e   ⁄'                                    mõ f       nõ f\       põ f|       qõ fQ       oõ fr       rõ f       Main Camera 
+   MainCamera                                             lõ f&'Õ=§)ú<´á=<¸•~?Õk@‡~¿@@~îø  Ä?  Ä?  Ä?                                    lõ f       ˝Z;…=(g∑=°††<          Ä?  Ä?öôô>  ˙D  pB      »B  Äøˇˇˇˇˇˇˇˇ                                    lõ f                           lõ f                           lõ f                           lõ f          ‡yØ            ãrı{    gøÇf    Õﬁ    ¶6C    ˛F<0                                  gøÇf!       iøÇf       høÇf       Cube2      Untagged                                               føÇf    sª^>    Îﬁy?w®bAÕÃÃ=±ÍB  Ä?  Ä?  Ä?                                    føÇfˇ  Ä?  Ä?                                           Ä?                        føÇf   ⁄'              Ü      ¸8          ÿˇg!       Úÿˇg       Òÿˇg       GridLine   Untagged                              ™      ¸8    Ôÿˇg              Ä?      r∑  ¡
+◊#=õÂ]D
+◊#=        :pÍU       à#      ¸8    Ôÿˇgˇ  Ä?  Ä?                                           Ä?       »Z2      ¸8    Ôÿˇg   ⁄'                                    yúi!       yúiA       yúi       yúi    
+   HardGround     Untagged                                               yúi    ¬$DΩ    —¥?,,@    ˆ;AÏ'DÕÃÃ=<CD                                    yúiˇ  Ä?  Ä?                                           Ä?                        yúi   ⁄'                              yúi   ¿wÃ      Ä?  Ä?  Ä?                   ÿÜ      ¸8          ∆;Êi!       »;Êi       «;Êi       GridLine   Untagged                              ∏      ¸8    ≈;Êi¯5øgõ¥  @¥Ô5?      ¿¡ao	8◊#=ôÂ]D
+◊#=        :pÍU       ñ#      ¸8    ≈;Êiˇ  Ä?  Ä?                                           Ä?       ÷Z2      ¸8    ≈;Êi   ⁄'             ≤Ü      ¸8          ë m!       ì m       í m       GridLine   Untagged                              í      ¸8    ê m              Ä?      r∑  ‡¡
+◊#=õÂ]D
+◊#=        :pÍU       r#      ¸8    ê mˇ  Ä?  Ä?                                           Ä?       ≤Z2      ¸8    ê m   ⁄'             ¶Ü      ¸8          L∞m!       N∞m       M∞m       GridLine   Untagged                              Ü      ¸8    K∞m              Ä?      r∑  –¡
+◊#=õÂ]D
+◊#=        :pÍU       f#      ¸8    K∞mˇ  Ä?  Ä?                                           Ä?       ¶Z2      ¸8    K∞m   ⁄'             †Ü      ¸8          zâ–o!       |â–o       {â–o       GridLine   Untagged                              Ä      ¸8    yâ–o              Ä?      x∑  `¡
+◊#=õÂ]D
+◊#=        :pÍU       `#      ¸8    yâ–oˇ  Ä?  Ä?                                           Ä?       †Z2      ¸8    yâ–o   ⁄'             ÓÜ      ¸8          zÜ}r!       |Ü}r       {Ü}r       GridLine   Untagged                              Œ      ¸8    yÜ}r              Ä?   Ä∏˝q∑2P¬
+◊#=õÂ]D
+◊#=        :pÍU       ¨#      ¸8    yÜ}rˇ  Ä?  Ä?                                           Ä?       ÏZ2      ¸8    yÜ}r   ⁄'              á      ¸8          8EMv!       :EMv       9EMv       GridLine   Untagged                                     ¸8    7EMv˚5ø2Òi4  `¥Ï5?   Ä  –A   Ä◊#=úÂ]D◊#=        :pÍU       ﬁ#      ¸8    7EMvˇ  Ä?  Ä?                                           Ä?       [2      ¸8    7EMv   ⁄'                                    Õüπvl       Œüπv       Directional light      Untagged                                               ÃüπvÙ5ø        Ú5?   Ä          Ä?  Ä?  Ä?        ﬂ√^                        Ãüπv      ì£.?  Ä?ï≥>  Ä?)\>   A  A   A    ˇˇˇˇ  Ä?ÕÃL=  Ä@  Ä?                        ˇˇˇˇ                Ä?  Ä?  Ä?           Fá      ¸8          „˙´w!       Â˙´w       ‰˙´w       GridLine   Untagged                              &      ¸8    ‚˙´w              Ä?   Ä[˙q∑ú	º¬
+◊#=õÂ]D
+◊#=        :pÍU       #      ¸8    ‚˙´wˇ  Ä?  Ä?                                           Ä?       D[2      ¸8    ‚˙´w   ⁄'             <á      ¸8          AÀ+y!       CÀ+y       BÀ+y       GridLine   Untagged                                    ¸8    @À+y              Ä?     Áq∑ö	∞¬
+◊#=õÂ]D
+◊#=        :pÍU       ˙#      ¸8    @À+yˇ  Ä?  Ä?                                           Ä?       :[2      ¸8    @À+y   ⁄'             ¶Ü     π÷          û¨Ày∆       ü¨Ày«       †¨Ày       ParticleSystem     Untagged                              Ü     π÷    ù¨Ày      Äø    LÔ.¥?n4_ÓÎ? $‹æI.†?Ô˛ª>  Ä?        «4„U       ¿.    π÷    ù¨Ày  †@      Ä?           ¿@         Ä?              Ä?  Ä?                                           Ä?                            Ä?         Ä?              Ä?  Ä?                                           Ä?                          ˇˇˇˇˇˇˇˇ                          ˇˇ              ˇˇ              ˇˇˇˇˇˇˇˇ                          ˇˇ              ˇˇ              ˇˇˇˇˇˇˇˇ    ÏQ8>         Ä?              Ä?  Ä?                                           Ä?                                       Ä?              Ä?  Ä?                                           Ä?                                  '          Ä?  »A      Ä@                             zD         Ä?              Ä?  Ä?                                           Ä?                                                       Ä?         Ä?  Äø  Äø
+     Ä?      Äø  Äø
+                                  Ä?                             €I?         Ä?              Ä?  Ä?                                           Ä?                             ˇˇˇˇˇ —ˇˇ —                       ˇˇˇˇ            ˇˇ              ˇˇˇˇˇˇˇˇ                          ˇˇ              ˇˇ              ˇˇˇˇˇˇˇˇ         Ä?                 Ä?      Ä?  Ä?  Ä?                               Ä?      Ä?  Ä?  Ä?                                 Ä?                    Ä?              Ä?  Ä?                                           Ä?                                       Ä?              Ä?  Ä?                                           Ä?                                       Ä?              Ä?  Ä?                                           Ä?                                               Ä?              Ä?  Ä?                                           Ä?                                       Ä?              Ä?  Ä?                                           Ä?                                       Ä?              Ä?  Ä?                                           Ä?                                    Ä?         Ä?              Ä?  Ä?                                           Ä?                            Ä?         Ä?              Ä?  Ä?                                           Ä?                            Ä?         Ä?              Ä?  Ä?                                           Ä?                            Ä?         Ä?              Ä?  Ä?                                           Ä?                                Ä?      Ä?         Ä?              Ä?  Ä?                                           Ä?                               Ä?    €I?         Ä?              Ä?  Ä?                                           Ä?                                Ä?    ˇˇˇˇˇˇˇˇ                          ˇˇ              ˇˇ              ˇˇˇˇˇˇˇˇ                          ˇˇ              ˇˇ              ˇˇˇˇˇˇˇˇ         Ä?                                                              Ä?                                           `¶/    π÷    ù¨Àyˇ  Ä?  Ä?                                           Ä?       ?           @                           8á      ¸8          Á,{!       Á,{       Á,{       GridLine   Untagged                                    ¸8    Á,{¯5øgõ¥  @¥Ô5?       ¬Ê((8◊#=ôÂ]D
+◊#=        :pÍU       ˆ#      ¸8    Á,{ˇ  Ä?  Ä?                                           Ä?       6[2      ¸8    Á,{   ⁄'             á      ¸8          (œ{!       *œ{       )œ{       GridLine   Untagged                              ˆ      ¸8    'œ{¯5øgõ¥  @¥Ô5?   Ä  †A   Ä◊#=ôÂ]D
+◊#=        :pÍU       ‘#      ¸8    'œ{ˇ  Ä?  Ä?                                           Ä?       [2      ¸8    'œ{   ⁄'                                    ãrı{!       çrı{       årı{       Cube1      Untagged                                               ärı{    sª^>    Îﬁy?Ç	-BÕÃÃ= Ú˝A  Ä?  Ä?  Ä?                                    ärı{ˇ  Ä?  Ä?                                           Ä?                        ärı{   ⁄'             *á      ¸8          \€≈!       ^€≈       ]€≈       GridLine   Untagged                              
+      ¸8    [€≈              Ä?      r∑  @A
+◊#=õÂ]D
+◊#=        :pÍU       Ë#      ¸8    [€≈ˇ  Ä?  Ä?                                           Ä?       ([2      ¸8    [€≈   ⁄'  
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientEquatorColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientGroundColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_AtlasSize: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 512
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 0
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 965c7bca0c9a2494e9ae46fcb9c6e16c, type: 2}
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &248953102
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_Name
+      value: Avatar1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.3323097
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: .0500000007
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.3469353
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -1.62920685e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b796b489cc4c447c91c00d4136b0e54, type: 3}
+--- !u!1001 &351739505
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.26237297
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.21474457
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.19843578
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .0433035493
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: .00599936303
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -.999043941
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: .00042852413
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 33b82a22301d648c5afa1a682a259e5d, type: 2}
+    m_RemovedComponents:
+    - {fileID: 11100000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 9256e250ab62647109679d3cbbaf6f04, type: 3}
+--- !u!1001 &389610528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 351.737762
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.105957
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 135.241714
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: .471835643
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.58214348e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: .881686568
+      objectReference: {fileID: 0}
+    - target: {fileID: 400040, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1.44746309e-07
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a9d822b319924ae7a120c7f2ba0b067, type: 3}
+--- !u!1 &467586323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 467586324}
+  - component: {fileID: 467586326}
+  - component: {fileID: 467586325}
+  m_Layer: 0
+  m_Name: Cube3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &467586324
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467586323}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 9.652708, y: 0.1, z: 14.143398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &467586325
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467586323}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &467586326
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467586323}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &809256701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809256702}
+  - component: {fileID: 809256704}
+  - component: {fileID: 809256703}
+  m_Layer: 0
+  m_Name: Cube5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &809256702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809256701}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 14.340205, y: 0.1, z: -4.4183617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &809256703
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809256701}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &809256704
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809256701}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &845694183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 845694184}
+  - component: {fileID: 845694185}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &845694184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845694183}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &845694185
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845694183}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.9440559, b: 0, a: 1}
+  m_Intensity: 0.14
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1127654931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1127654932}
+  - component: {fileID: 1127654934}
+  - component: {fileID: 1127654933}
+  m_Layer: 0
+  m_Name: Cube4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1127654932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127654931}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: -1.3137941, y: 0.1, z: 6.69689}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1127654933
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127654931}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1127654934
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127654931}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1430064998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1430064999}
+  - component: {fileID: 1430065000}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1430064999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430064998}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1430065000
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430064998}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.49357226, g: 0.0066273054, b: 0.8880597, a: 1}
+  m_Intensity: 0.36
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1487996144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487996145}
+  - component: {fileID: 1487996146}
+  m_Layer: 0
+  m_Name: Point light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487996145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487996144}
+  m_LocalRotation: {x: 0.4626682, y: -0.20249814, z: 0.12967989, w: 0.853297}
+  m_LocalPosition: {x: 6.221632, y: 14.453119, z: 0.8811226}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1487996146
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487996144}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 3.26
+  m_Range: 49.01
+  m_SpotAngle: 58
+  m_InnerSpotAngle: 43.445633
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1589894912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1589894913}
+  - component: {fileID: 1589894914}
+  m_Layer: 0
+  m_Name: Radial light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1589894913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589894912}
+  m_LocalRotation: {x: 0, y: -0.047886617, z: 0, w: 0.9988528}
+  m_LocalPosition: {x: 3.3683033, y: 4.906624, z: -2.59206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1681816812}
+  - {fileID: 845694184}
+  - {fileID: 1430064999}
+  - {fileID: 1991876557}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1589894914
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589894912}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.08
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1681816811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1681816812}
+  - component: {fileID: 1681816813}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1681816812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681816811}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1681816813
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681816811}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.49357226, g: 0.0066273054, b: 0.8880597, a: 1}
+  m_Intensity: 0.36
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &1713412972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1713412973}
+  - component: {fileID: 1713412974}
+  - component: {fileID: 1713412977}
+  - component: {fileID: 1713412975}
+  - component: {fileID: 1713412978}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1713412973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_LocalRotation: {x: 0.100172326, y: 0.019062825, z: 0.01156799, w: 0.9947202}
+  m_LocalPosition: {x: 3.684391, y: 6.0154877, z: -1.1601028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1713412974
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.0033415034, g: 0.03686789, b: 0.08955222, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 2000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &1713412975
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+--- !u!124 &1713412977
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+--- !u!114 &1713412978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713412972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de0396ae3eef541c190f0e6962090454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trans:
+  - {fileID: 2079683211}
+  - {fileID: 1719844711}
+  - {fileID: 467586324}
+  - {fileID: 1127654932}
+  - {fileID: 809256702}
+--- !u!1 &1719844710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719844711}
+  - component: {fileID: 1719844713}
+  - component: {fileID: 1719844712}
+  m_Layer: 0
+  m_Name: Cube2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719844711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719844710}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 14.166129, y: 0.1, z: 35.97919}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1719844712
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719844710}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1719844713
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719844710}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1771862283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1771862284}
+  - component: {fileID: 1771862286}
+  - component: {fileID: 1771862287}
+  - component: {fileID: 1771862285}
+  m_Layer: 0
+  m_Name: HardGround
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1771862284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_LocalRotation: {x: 0, y: -0.047886617, z: 0, w: 0.9988528}
+  m_LocalPosition: {x: 2.688548, y: 0, z: 9.202139}
+  m_LocalScale: {x: 671.6883, y: 0.1, z: 780.0193}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1771862285
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c6784005974824c55b2b59b5bda24153, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1771862286
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1771862287
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771862283}
+  m_Material: {fileID: 13400000, guid: 1560575207a7b4f27bcd4ab2aeb2e3a1, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1991876556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1991876557}
+  - component: {fileID: 1991876558}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1991876557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991876556}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1589894913}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1991876558
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991876556}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 0.68218344, g: 1, b: 0.35074627, a: 1}
+  m_Intensity: 0.28
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &2079683210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079683211}
+  - component: {fileID: 2079683213}
+  - component: {fileID: 2079683212}
+  m_Layer: 0
+  m_Name: Cube1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2079683211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079683210}
+  m_LocalRotation: {x: 0, y: 0.21751194, z: 0, w: 0.9760577}
+  m_LocalPosition: {x: 43.259285, y: 0.1, z: 31.743164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2079683212
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079683210}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e77db49bc9fb6499290655245ce9bc95, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &2079683213
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079683210}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eca3059149db2a84bb918b71633cb210, type: 3}
+  m_Name: BruteEgg
+  m_EditorClassIdentifier: 
+  name: Brute Egg
+  price: 100
+  numberNames:
+  - pet: {fileID: 11400000, guid: 6e3bc4068a5fceb40b3e2d19befb6975, type: 2}
+    chance: 50
+  - pet: {fileID: 11400000, guid: de98905fb35e53d4584788e15390eb8c, type: 2}
+    chance: 50
